@@ -7,8 +7,10 @@ Using the [Datasets](data/) we use `python` with the following infrastructures:
 2. `Spark`
 3. `Spark Dataframes`
 4. `Spark SQL`
-5. `Hive`
-With this infrastructures we answer the following questions:
+5. `Hive` 
+
+With these infrastructures we answer the following questions:
+
 1. Which states have more/less monitors?
 2. Which counties have the best/worst air quality?
 3. Which states have the best/worst air quality in each year?
