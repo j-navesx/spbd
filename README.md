@@ -8,5 +8,11 @@ Using the [Datasets](data/) we use `python` with the following infrastructures:
 3. `Spark Dataframes`
 4. `Spark SQL`
 5. `Hive`
+With this infrastructures we answer the following questions:
+1. Which states have more/less monitors?
+2. Which counties have the best/worst air quality?
+3. Which states have the best/worst air quality in each year?
+4. For each state, what is the average distance (in km) of the monitors in that state to the state center?
+5. How many sensors there are per quadrant (NW, NE, SE, SW) in each state?
 ## Execution
 To execute find the folders for the respective infrastructures and run the python notebook using `Jupyter`
