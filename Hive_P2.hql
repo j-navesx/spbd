@@ -2,7 +2,7 @@ drop database if exists project_db cascade ;
 create database project_db ;
 use project_db ;
 
-CREATE TABLE weblog(
+CREATE TABLE log(
     stateCode string,
     countyCode string,
     siteNum string,
@@ -37,7 +37,7 @@ CREATE TABLE weblog(
     TBLPROPERTIES ("skip.header.line.count"="1");
 
 -- Load data into table from localfile (to HIVE)
-load data local inpath 'log.csv' into table weblog;
+load data local inpath 'log.csv' into table log;
 
 -- Select 
 select countyCode as County_Code,
