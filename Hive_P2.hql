@@ -2,7 +2,7 @@ drop database if exists project_db cascade ;
 create database project_db ;
 use project_db ;
 
-CREATE TABLE log(
+CREATE TABLE logs(
     stateCode string,
     countyCode string,
     siteNum string,
@@ -37,11 +37,13 @@ CREATE TABLE log(
     TBLPROPERTIES ("skip.header.line.count"="1");
 
 -- Load data into table from localfile (to HIVE)
-load data local inpath 'log.csv' into table log;
+load data local inpath 'log.csv' into table logs;
 
--- Select 
-select countyCode as County_Code,
-countyName as County_Name, 
+-- Select the pollutant levels and orders based on ascending pollutant levels
+select stateCode as State_Code,
+countyCode as County_Code,
+countyName as County_Name,
 avg(Pollutant_Mean) as Pollutant_Levels
-from ( select countyCode, countyName, arithmeticMean as Pollutant_Mean from weblog) table1
-group by countyCode, countyName;
+from ( select stateCode, countyCode, countyName, arithmeticMean as Pollutant_Mean from logs) table1
+group by countyCode, stateCode, countyName
+order by Pollutant_Levels;
