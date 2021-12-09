@@ -5,8 +5,8 @@
 
 import sys
 file = sys.stdin
-file.readline() # Skips the header line
+next(file) # Skips the header line
 for line in file:
     line = line.strip()
     words = line.split(',')
-    print("%s\t%s\t%s" % (words[1], words[16], words[25]))
+    print("%s\t%s\t%s" % ((words[0], words[1]), words[16], words[25]))
