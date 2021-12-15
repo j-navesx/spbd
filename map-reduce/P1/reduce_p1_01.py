@@ -1,16 +1,18 @@
 from sys import stdin
 import logging
 
-last_key = None
+last_id = None
+last_county = None
 
 def main():
     stdin.readline()
     for line in stdin:
         line = line.strip()
-        key, value = line.split(':')
-        if key != last_key:
-            print(f"{key}:{value}")
-            last_key = key
+        id, county, state = line.split(':')
+        if id != last_id or county != last_county:
+            print(f"{id}:{state}")
+            last_id = id
+            last_county = county
 
 
 if __name__ == '__main__':

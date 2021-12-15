@@ -6,7 +6,8 @@ def main():
     for line in stdin:
         line = line.strip()
         line = line.split(',')
-        print(f"{line[2]}:{line[24]}")
+        # Monitor_id:County_Code:State_Name
+        print(f"{line[2]}:{line[1]}:{line[24]}")
 
 
 if __name__ == '__main__':
