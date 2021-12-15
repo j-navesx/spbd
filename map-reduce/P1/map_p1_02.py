@@ -1,15 +1,14 @@
 from sys import stdin
 import logging
 
-MAGIC = 999999999
-
 def main():
     stdin.readline()
     for line in stdin:
         line = line.strip()
         logging.debug(line)
-        key, value = line.split(':')
-        print(f"{MAGIC - int(value)}:{key}")
+        _key, value = line.split(':')
+        print(f"{value}:1")
+        
 
 
 if __name__ == '__main__':
