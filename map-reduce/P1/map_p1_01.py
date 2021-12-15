@@ -7,7 +7,7 @@ def main():
         line = line.strip()
         line = line.split(',')
         # Monitor_id:County_Code:State_Name
-        print(f"{line[2]}:{line[1]}:{line[24]}")
+        print(f"{line[2]}:{line[0]+line[1]}:{line[24]}")
 
 
 if __name__ == '__main__':
