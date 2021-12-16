@@ -24,6 +24,10 @@ try:
 
     query = "SELECT COUNT(*) as rank, state_name FROM (SELECT site_num, CONCAT(state_code,county_code) as county, state_name FROM data GROUP BY site_num, county) ORDER BY rank DESC"
 
+    final = spark.sql(query)
+
+    final.show(30)
+
     sc.stop()
 except Exception as err:
     print(err)
