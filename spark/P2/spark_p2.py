@@ -16,8 +16,10 @@ try:
 
     ranking = sum_airqual.sortBy(lambda l: l[1], ascending=False)
     
-    for (state, rank) in ranking.collect():
-        print(f"{rank}: {state[1]}")
+    rank = 1
+    for (state, value) in ranking.collect():
+        print(f"{rank}: {state[1]}, {value}")
+        rank +=1
 
     sc.stop()
 except Exception as e:
