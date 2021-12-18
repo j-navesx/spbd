@@ -23,9 +23,9 @@ try:
                      .filter( lambda x: x[1] > 0) \
                      .map(lambda x: x[0]) \
                      .map( lambda line: line.split(',')) \
-                     .map( lambda arr: (arr[24], float(arr[5]), float(arr[6])))
+                     .map( lambda arr: (arr[24], (float(arr[5]), float(arr[6]))))
 
-    final = logRows_states.map(lambda arr: (arr[0], ((arr[1]+arr[2])/2), ((arr[3]+arr[4])/2)))\
+    final = logRows_states.map(lambda arr: (arr[0], (((arr[1]+arr[2])/2), ((arr[3]+arr[4])/2))))\
                     .join(logRows)
     
     for k,v in final.take(20):
