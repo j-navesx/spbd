@@ -23,6 +23,7 @@ try:
                     .groupBy('county').sum('arithmetic_mean') \
                     .drop('county') \
 
+    finalDF.show(20)
     sc.stop()
     
 except Exception as err:
