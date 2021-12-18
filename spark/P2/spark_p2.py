@@ -3,10 +3,14 @@ import pyspark
 sc = pyspark.SparkContext('local[*]')
 
 try:
-    lines = sc.read.option("header", True).csv("[insert path]")
-    lines = lines.filter(lambda l: len(l) > 0).map(lambda l: [l.split(),l])
-
-    counties_airqual = lines.map(lambda l: [(l[0]+l[1], l[25]), l[16]])
+    lines = sc.textFile('log.csv') # Change the name of the file to what you have it named here
+    logTuples = lines.filter( lambda line: len(line) > 0) \
+                     .zipWithIndex() \
+                     .filter( lambda x: x[1] > 0) \
+                     .map(lambda x: x[0]) \
+                     .map( lambda line: line.split(','))
+    
+    counties_airqual = logTuples.map(lambda l: [(l[0]+l[1], l[25]), float(l[16])])
 
     sum_airqual = counties_airqual.reduceByKey(lambda a,b : a+b)
 
