@@ -27,8 +27,8 @@ def decide_quadr(latitude, longitude, state):
             #print("LINE")
             #print(state_county_site_numb,lat,lon) #state line
             #print("LIST")
-            #print(stat[1],stat[6],stat[7])        #states list 6->mid_lat 7->mid_lon
-            if (float(lat) < float(stat[6]) and float(lon) < float(stat[7])):
+            #print(stat[1],stat[6],stat[7])        
+            if (float(lat) < float(stat[6]) and float(lon) < float(stat[7])):  #states_list 6 -> mid_lat  and   7 -> mid_lon
                 #print("NW")
                 global NW_count
                 NW_count += 1
