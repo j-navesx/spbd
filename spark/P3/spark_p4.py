@@ -30,8 +30,7 @@ try:
     final = logRows_states.map(lambda arr: (arr[0], (((arr[1]+arr[2])/2), ((arr[3]+arr[4])/2))))\
                     .join(logRows) \
                     .map(lambda arr: (arr[0], sqrt( pow((arr[1][1][0]-arr[1][0][0])*111,2) + pow((arr[1][1][1]-arr[1][0][1])*111,2) ))) \
-                    .groupByKey() \
-                    .map(lambda arr: (arr[0], sum(arr[1])/len(arr[1])))
+                    .groupByKey() 
 
     
     for k,v in final.take(20):
