@@ -22,6 +22,7 @@ try:
                     .drop('county_code') \
                     .groupBy('county','county_name').sum('arithmetic_mean') \
                     .withColumnRenamed('sum(arithmetic_mean)', 'pollutant_levels') \
+                    .orderBy(col('pollutant_levels').desc()) \
                     .drop('county') \
 
     finalDF.show(20)
