@@ -20,7 +20,7 @@ try:
     finalDF = logRowsDF.withColumn('county', (col('state_code')+col('county_code'))) \
                     .drop('state_code') \
                     .drop('county_code') \
-                    .groupBy('county').sum('arithmetic_mean') \
+                    .groupBy('county','county_name').sum('arithmetic_mean') \
                     .drop('county') \
 
     finalDF.show(20)
