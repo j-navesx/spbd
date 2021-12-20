@@ -5,7 +5,6 @@ last_id = None
 last_county = None
 
 def main():
-    stdin.readline()
     for line in stdin:
         line = line.strip()
         id, county, state = line.split(':')
@@ -16,5 +15,4 @@ def main():
 
 
 if __name__ == '__main__':
-    logging.basicConfig(filename='./map-reduce/debug.log', level=logging.DEBUG)
     main()

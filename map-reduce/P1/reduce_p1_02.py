@@ -18,5 +18,4 @@ def main():
 
 
 if __name__ == '__main__':
-    logging.basicConfig(filename='./map-reduce/debug.log', level=logging.DEBUG)
     main()
