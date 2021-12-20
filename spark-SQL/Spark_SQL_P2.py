@@ -12,11 +12,11 @@ try:
                      .filter( lambda x: x[1] > 0) \
                      .map(lambda x: x[0]) \
                      .map( lambda line: line.split(',')) \
-                     .map( lambda arr : Row( State = arr[24], County = arr[25], Arithmetic_mean = float(arr[16])))
+                     .map( lambda arr : Row( State = arr[24], County = arr[25], countyCode = arr[1], Arithmetic_mean = float(arr[16])))
     logRowsDF = spark.createDataFrame( logRows )
     logRowsDF.createOrReplaceTempView("log")
 
-    stateRanksDF = spark.sql("SELECT State, County, AVG(Arithmetic_mean) AS Pollutant_levels FROM log GROUP BY State, County ORDER BY Pollutant_levels DESC")
+    stateRanksDF = spark.sql("SELECT State, countyCode AS County_Code, County, AVG(Arithmetic_mean) AS Pollutant_levels FROM log GROUP BY State, countyCode, County ORDER BY Pollutant_levels DESC")
     stateRanksDF.show(100)
 
     sc.stop()
