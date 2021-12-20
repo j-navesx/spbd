@@ -16,14 +16,14 @@ try:
                     .filter( lambda x: x[1] > 0) \
                     .map(lambda x: x[0]) \
                     .map( lambda line: line.split(',')) \
-                    .map( lambda arr : Row( state = arr[24], county = arr[25], site_num = arr[2]))    
+                    .map( lambda arr : Row( state = arr[24], countyCode = arr[1], site_num = arr[2]))    
     
     # Dataframe creation
     logRowsDF = spark.createDataFrame( logRows )
     #logRowsDF = spark.createDataFrame( logRows )
     #logRowsDF = logRowsDF.distinct() # Makes sure we are using different monitors
     
-    logRows2DF = logRowsDF.select('state','county','site_num').distinct().groupBy('state')\
+    logRows2DF = logRowsDF.select('state','countyCode','site_num').distinct().groupBy('state')\
                                                                          .agg(count('site_num').alias('Nr of Monitors'))\
                                                                          .sort('Nr of Monitors', ascending = False)   
     logRows2DF.show(100,truncate=50)
