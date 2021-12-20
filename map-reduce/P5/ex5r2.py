@@ -1,6 +1,6 @@
 import sys
 
-states = list()
+states = []
 last_state = None
 NW_count = 0
 NE_count = 0
