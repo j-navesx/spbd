@@ -25,17 +25,11 @@ try :
                      .map( lambda arr: (arr[1], [float(arr[2]),float(arr[3]),float(arr[4]),float(arr[5])] ))\
                      .mapValues(lambda x: ((x[0]+x[1])/2,(x[2]+x[3])/2))  #calculate midlat and midlon
     
-
-    #for (key,value) in logTuples.take(20):
-        #print(key,value)
-    
-    #print('----------------')
-    
     tuplesJoined = logTuples.join(statesTuples).mapValues(lambda x: [x[0][0],x[1][0],x[0][1],x[1][1]]) 
     
     stateCoords1stQuad = tuplesJoined.filter(lambda x: float(x[1][0]) < float(x[1][1]) and float(x[1][2]) < float(x[1][3]))                                 
-    stateCoords2ndQuad = tuplesJoined.filter(lambda x: float(x[1][0]) > float(x[1][1]) and float(x[1][2]) < float(x[1][3]))
-    stateCoords3rdQuad = tuplesJoined.filter(lambda x: float(x[1][0]) < float(x[1][1]) and float(x[1][2]) > float(x[1][3]))
+    stateCoords2ndQuad = tuplesJoined.filter(lambda x: float(x[1][0]) < float(x[1][1]) and float(x[1][2]) > float(x[1][3]))
+    stateCoords3rdQuad = tuplesJoined.filter(lambda x: float(x[1][0]) > float(x[1][1]) and float(x[1][2]) < float(x[1][3]))
     stateCoords4thQuad = tuplesJoined.filter(lambda x: float(x[1][0]) > float(x[1][1]) and float(x[1][2]) > float(x[1][3]))
     
     stateMonitors1stQuad = stateCoords1stQuad.mapValues(lambda x: (1)) \
@@ -60,49 +54,10 @@ try :
     
     finalStateMonitorsPerQuad = stateMonitors1stQuad.fullOuterJoin(stateMonitors2ndQuad)\
                                                     .fullOuterJoin(stateMonitors3rdQuad)\
-                                                    .fullOuterJoin(stateMonitors4thQuad)\
-                                                    .sortByKey()
+                                                    .fullOuterJoin(stateMonitors4thQuad)
     
     for (key,value) in finalStateMonitorsPerQuad.collect():
         print(key,value)
-    
-    #print('----------------')
-    
-    #for (key,value) in tuplesJoined.take(40):
-        #print(key,value)
-    
-    #for (minlat,maxlat, minlon, maxlon) in statesTuples.take(10):
-        #print(minlat,maxlat, minlon, maxlon)   
-    
-    #for (key,value) in statesTuples.take(20):
-        #print(key,value)
-    
-    #print('----------------')
-    
-    #for (key,value) in logTuples.take(10):
-        #print(key,value)
-
-    #print('----------------')
-        
-    #for (key,value) in statesTuples.take(20):
-        #print(key,value)
-    
-    #print('-----------------')
-    
-    #tuplesJoined = logTuples.join(statesTuples).sortByKey()
-    
-    #for (key,value) in tuplesJoined.take(20):
-        #print(key,value)
-    
-    #state_county_site_lat = logTuples.map( lambda arr: ((arr[24],arr[25],arr[2]), arr[5]))
-    
-    #state_county_site_lon = logTuples.map( lambda arr: ((arr[24],arr[25],arr[2]), arr[6]))
-    
-    #for (key,value) in state_county_site_lat.take(10):
-        #print(key,value)
-        
-    #for (key,value) in state_county_site_lon.take(10):
-        #print(key,value)
     
     sc.stop()
 except Exception as e:

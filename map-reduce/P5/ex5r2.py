@@ -1,81 +1,83 @@
+%%file ex5r2.py
 import sys
 
-states = []
+STATE_FILE = "usa_states.csv"
 last_state = None
 NW_count = 0
 NE_count = 0
 SW_count = 0
 SE_count = 0
 
-with open("usa_states.csv", encoding = 'utf-8') as states_file:
+with open(STATE_FILE, encoding="utf-8") as states_file:
         states = states_file.read().split('\n') #create a list of lists and each list has a row
-        states = [l.split(',') for l in states]
         states.pop(0)
         states.pop(-1)
-        for state in states:
-            midlat = ((float(state[3])-float(state[2]))/2.0)+float(state[2])  #2 is min_lat   3 is max_lat
-            midlon = (abs(float(state[5])-float(state[4]))/2.0)+float(state[4])  #4 is min_lon   5 is max_lon
-            state.append(midlat) #state[6]
-            state.append(midlon) #state[7]
-    
+        states = {l.split(',')[1]:(\
+            ((float(l.split(',')[3])-float(l.split(',')[2]))/2.0)+float(l.split(',')[2]),\
+            (abs(float(l.split(',')[5])-float(l.split(',')[4]))/2.0)+float(l.split(',')[4])\
+            ) for l in states}
+        #mid_lat, mid_lon
+
 #print(states)
 
-def decide_quadr(latitude, longitude, state):
-    for stat in states:
-    #print(stat[1],state)
-        if stat[1] == state:
-            #print("LINE")
-            #print(state_county_site_numb,lat,lon) #state line
-            #print("LIST")
-            #print(stat[1],stat[6],stat[7])        
-            if (float(lat) < float(stat[6]) and float(lon) < float(stat[7])):  #states_list 6 -> mid_lat  and   7 -> mid_lon
-                #print("NW")
-                global NW_count
-                NW_count += 1
-            elif (float(lat) > float(stat[6]) and float(lon) < float(stat[7])):
-                #print("NE")
-                global NE_count
-                NE_count += 1
-            elif (float(lat) < float(stat[6]) and float(lon) > float(stat[7])):
-                #print("SW")
-                global SW_count
-                SW_count += 1
-            elif (float(lat) > float(stat[6]) and float(lon) > float(stat[7])):
-                #print("SE")
-                global SE_count
-                SE_count += 1
-            #break
-        #print(stat[1])
-        #print(stat[1],state,lat,lon)
-
+#def decide_quadr(lat, lon, state):
+    
     
 #sys.stdin.readline()   #reading the first line to remove the line with the column description
 for line in sys.stdin:
     
     line = line.strip()
     
-    #line = line.translate(str.maketrans('', '', string.punctuation+'«»'))
-    #print(line)
     state_county_site_numb,lat,lon = line.split('\t')
-    #print(county_state_site_numb,lat,lon)
+
     state,county,site_numb = state_county_site_numb.split(' ,') #space important because of the print done in the map function 
-    #print(county,state,site_numb)                              #or else state != stat[1] always
-    #decide_quadr(lat,lon,state)
-    
+                                                              #or else state != stat[1] always
+
     if state == last_state:        
-        decide_quadr(lat,lon,state)    
+       
+        if last_state in states:
+            mid_lat, mid_lon = states[state]
+
+            if (float(lat) < float(mid_lat) and float(lon) < float(mid_lon)):  #states_list 6 -> mid_lat  and   7 -> mid_lon
+
+                NW_count += 1
+            elif (float(lat) < float(mid_lat) and float(lon) > float(mid_lon)):
+
+                NE_count += 1
+            elif (float(lat) > float(mid_lat) and float(lon) < float(mid_lon)):
+
+                SW_count += 1
+            elif (float(lat) > float(mid_lat) and float(lon) > float(mid_lon)):
+
+                SE_count += 1
     else:
         if last_state:
-            #average_pol = float(total_count/total_times)
-            print(f"State: {last_state}\t NW: {NW_count}\t NE: {NE_count}\t SW: {SW_count}\t SE: {SE_count}")
+            if last_state in states:
+                print(f"State: {last_state}\t NW: {NW_count}\t NE: {NE_count}\t SW: {SW_count}\t SE: {SE_count}")
         last_state = state
         NW_count = 0
         NE_count = 0
         SW_count = 0
         SE_count = 0
-        decide_quadr(lat,lon,state)
+        
+        if last_state in states:
+            mid_lat, mid_lon = states[state]
 
-if last_state:
-    print(f"State: {last_state}\t NW: {NW_count}\t NE: {NE_count}\t SW: {SW_count}\t SE: {SE_count}")   
+            if (float(lat) < float(mid_lat) and float(lon) < float(mid_lon)):  #states_list 6 -> mid_lat  and   7 -> mid_lon
 
+                NW_count += 1
+            elif (float(lat) < float(mid_lat) and float(lon) > float(mid_lon)):
+
+                NE_count += 1
+            elif (float(lat) > float(mid_lat) and float(lon) < float(mid_lon)):
+
+                SW_count += 1
+            elif (float(lat) > float(mid_lat) and float(lon) > float(mid_lon)):
+
+                SE_count += 1
+
+#if last_state:
+    #print(f"State: {last_state}\t NW: {NW_count}\t NE: {NE_count}\t SW: {SW_count}\t SE: {SE_count}")   
+    #This would be needed when we reach last line (because it's null) but the first and last line of the log have
+                                                                            #already been removed at the beginning
     
