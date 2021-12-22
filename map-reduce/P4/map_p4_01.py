@@ -1,5 +1,4 @@
 from sys import stdin
-import logging
 
 def main():
     stdin.readline()

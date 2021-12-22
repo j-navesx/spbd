@@ -1,10 +1,9 @@
 from sys import stdin
-import logging
-
-last_county = None
-last_site = None
 
 def main():
+    line = None
+    last_county = None
+    last_site = None
     for line in stdin:
         line = line.strip()
         county, site, state, lat, lon = line.split(',')
@@ -12,7 +11,7 @@ def main():
             print(f"{line}")
             last_county = county
             last_site = site
-            
+    print(f"{line}")
 
 
 if __name__ == '__main__':

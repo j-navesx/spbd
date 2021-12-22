@@ -1,7 +1,4 @@
 from sys import stdin
-import logging
-
-
 
 def main():
     last_state = None
@@ -11,10 +8,13 @@ def main():
         line = line.strip()
         state, distance = line.split(',')
         if state != last_state:
-            print(f"{state}: {distance_sum/distance_len}")
+            if last_state:
+                print(f"{last_state}: {distance_sum/distance_len}")
             last_state = state
+            distance_sum = 0
+            distance_len = 1
         else:
-            distance_sum += distance
+            distance_sum += float(distance)
             distance_len += 1
 
 

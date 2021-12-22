@@ -1,0 +1,1356 @@
+Alabama,1990,0.02432	
+Alabama,1992,0.22074	
+Alabama,1993,1.36727	
+Alabama,1994,1.78628	
+Alabama,1995,1.18004	
+Alabama,1996,3.22631	
+Alabama,1997,0.00099	
+Alabama,1998,0.00130	
+Alabama,1999,0.00133	
+Alabama,2000,0.00195	
+Alabama,2001,0.01536	
+Alabama,2002,0.14373	
+Alabama,2003,0.10897	
+Alabama,2004,0.01289	
+Alabama,2005,0.09246	
+Alabama,2006,0.09912	
+Alabama,2007,0.02960	
+Alabama,2008,0.00814	
+Alabama,2009,0.07004	
+Alabama,2010,0.06525	
+Alabama,2011,0.33316	
+Alabama,2012,0.48346	
+Alabama,2013,0.00196	
+Alabama,2014,0.00415	
+Alabama,2015,0.00773	
+Alabama,2016,0.01049	
+Alaska,1990,0.00044	
+Alaska,1991,0.00018	
+Alaska,1992,0.00010	
+Alaska,1993,0.00016	
+Alaska,1994,0.00019	
+Alaska,1995,0.00025	
+Alaska,1996,0.00013	
+Alaska,1997,0.00039	
+Alaska,1998,0.00029	
+Alaska,1999,0.00092	
+Alaska,2000,0.00023	
+Alaska,2001,0.00027	
+Alaska,2002,0.00050	
+Alaska,2003,0.00033	
+Alaska,2004,0.00023	
+Alaska,2005,0.00024	
+Alaska,2006,0.00034	
+Alaska,2007,0.00046	
+Alaska,2008,0.05349	
+Alaska,2009,0.04358	
+Alaska,2010,0.00028	
+Alaska,2011,0.00028	
+Alaska,2012,0.00021	
+Alaska,2013,0.08682	
+Alaska,2014,0.00029	
+Alaska,2015,0.00039	
+Alaska,2016,0.00065	
+Arizona,1990,0.00086	
+Arizona,1991,0.00088	
+Arizona,1992,0.00052	
+Arizona,1993,0.00087	
+Arizona,1994,0.00145	
+Arizona,1995,0.00078	
+Arizona,1996,0.00083	
+Arizona,1997,0.00107	
+Arizona,1998,0.00061	
+Arizona,1999,0.32266	
+Arizona,2000,0.09932	
+Arizona,2001,0.13712	
+Arizona,2002,0.14014	
+Arizona,2003,0.11366	
+Arizona,2004,0.12023	
+Arizona,2005,0.10975	
+Arizona,2006,0.34517	
+Arizona,2007,0.22134	
+Arizona,2008,0.17011	
+Arizona,2009,0.16152	
+Arizona,2010,0.16366	
+Arizona,2011,0.34886	
+Arizona,2012,0.22840	
+Arizona,2013,0.06652	
+Arizona,2014,0.07089	
+Arizona,2015,0.04653	
+Arizona,2016,0.14193	
+Arkansas,1991,0.00000	
+Arkansas,1992,0.00047	
+Arkansas,1993,0.00043	
+Arkansas,1994,0.00058	
+Arkansas,1995,0.00031	
+Arkansas,1996,0.00098	
+Arkansas,1997,0.00146	
+Arkansas,1998,0.51153	
+Arkansas,1999,0.36016	
+Arkansas,2000,0.00082	
+Arkansas,2001,0.00252	
+Arkansas,2002,0.14293	
+Arkansas,2003,0.00940	
+Arkansas,2004,0.00132	
+Arkansas,2005,0.00087	
+Arkansas,2006,0.00068	
+Arkansas,2007,0.00063	
+Arkansas,2008,0.00072	
+Arkansas,2009,0.00055	
+Arkansas,2010,0.00093	
+Arkansas,2011,0.00092	
+Arkansas,2012,0.00055	
+Arkansas,2013,0.00098	
+Arkansas,2014,0.00060	
+Arkansas,2015,0.00103	
+Arkansas,2016,0.00046	
+California,1990,0.41153	
+California,1991,0.67354	
+California,1992,0.73563	
+California,1993,0.61428	
+California,1994,0.60829	
+California,1995,1.58740	
+California,1996,1.47250	
+California,1997,1.60160	
+California,1998,1.55682	
+California,1999,1.91165	
+California,2000,1.20199	
+California,2001,0.70573	
+California,2002,0.66345	
+California,2003,0.61865	
+California,2004,0.49412	
+California,2005,0.49647	
+California,2006,0.47830	
+California,2007,0.51763	
+California,2008,0.52727	
+California,2009,0.41366	
+California,2010,0.42062	
+California,2011,0.35372	
+California,2012,0.42831	
+California,2013,0.28585	
+California,2014,0.30304	
+California,2015,0.23527	
+California,2016,0.32919	
+California,2017,0.24073	
+Colorado,1990,0.00216	
+Colorado,1991,0.00240	
+Colorado,1992,0.00671	
+Colorado,1993,0.00551	
+Colorado,1994,0.00054	
+Colorado,1995,0.00042	
+Colorado,1996,0.16983	
+Colorado,1997,0.00038	
+Colorado,1998,0.00051	
+Colorado,1999,0.00088	
+Colorado,2000,0.23301	
+Colorado,2001,0.33630	
+Colorado,2002,0.08749	
+Colorado,2003,0.07195	
+Colorado,2004,0.27501	
+Colorado,2005,0.74325	
+Colorado,2006,0.63669	
+Colorado,2007,0.72488	
+Colorado,2008,0.41159	
+Colorado,2009,0.39437	
+Colorado,2010,0.32564	
+Colorado,2011,0.14457	
+Colorado,2012,0.51745	
+Colorado,2013,0.30434	
+Colorado,2014,0.36604	
+Colorado,2015,0.23989	
+Colorado,2016,0.38759	
+Colorado,2017,4.22500	
+Connecticut,1990,0.00810	
+Connecticut,1992,1.59260	
+Connecticut,1993,3.09755	
+Connecticut,1994,0.90703	
+Connecticut,1995,2.22178	
+Connecticut,1996,1.20378	
+Connecticut,1997,2.09315	
+Connecticut,1998,2.38515	
+Connecticut,1999,1.21349	
+Connecticut,2000,1.75846	
+Connecticut,2001,1.08238	
+Connecticut,2002,0.14665	
+Connecticut,2003,0.34328	
+Connecticut,2004,0.61180	
+Connecticut,2005,0.26203	
+Connecticut,2006,0.03801	
+Connecticut,2007,0.32937	
+Connecticut,2008,0.22767	
+Connecticut,2009,0.14790	
+Connecticut,2010,0.37237	
+Connecticut,2011,0.14807	
+Connecticut,2012,0.30314	
+Connecticut,2013,0.14059	
+Connecticut,2014,0.05734	
+Connecticut,2015,0.03128	
+Connecticut,2016,0.00117	
+Country Of Mexico,1993,2.38000	
+Country Of Mexico,1995,8.46000	
+Country Of Mexico,1996,0.43134	
+Country Of Mexico,1997,1.08411	
+Country Of Mexico,1998,1.34476	
+Country Of Mexico,1999,0.76935	
+Country Of Mexico,2000,0.76099	
+Country Of Mexico,2001,0.30762	
+Country Of Mexico,2002,0.46637	
+Country Of Mexico,2003,1.80900	
+Country Of Mexico,2004,1.82273	
+Country Of Mexico,2005,1.69903	
+Country Of Mexico,2006,1.25550	
+Country Of Mexico,2007,0.85000	
+Country Of Mexico,2008,1.13000	
+Country Of Mexico,2009,0.57508	
+Country Of Mexico,2010,0.58816	
+Country Of Mexico,2011,0.21100	
+Country Of Mexico,2016,0.01444	
+Delaware,1993,2.72308	
+Delaware,1994,2.08261	
+Delaware,1995,1.27244	
+Delaware,1996,0.92970	
+Delaware,1997,1.03340	
+Delaware,1998,0.89389	
+Delaware,1999,0.99391	
+Delaware,2000,0.31706	
+Delaware,2001,0.18623	
+Delaware,2002,0.15058	
+Delaware,2003,0.21105	
+Delaware,2004,0.19190	
+Delaware,2005,0.21734	
+Delaware,2006,0.20010	
+Delaware,2007,0.31264	
+Delaware,2008,0.14996	
+Delaware,2009,0.10814	
+Delaware,2010,0.14500	
+Delaware,2011,0.03995	
+Delaware,2012,0.11707	
+Delaware,2013,0.47790	
+Delaware,2014,0.31920	
+Delaware,2015,0.16074	
+Delaware,2016,0.05694	
+District Of Columbia,1990,0.82615	
+District Of Columbia,1991,0.67729	
+District Of Columbia,1992,0.41693	
+District Of Columbia,1993,0.65566	
+District Of Columbia,1994,0.53843	
+District Of Columbia,1995,2.50475	
+District Of Columbia,1996,1.05788	
+District Of Columbia,1997,0.59942	
+District Of Columbia,1998,1.08177	
+District Of Columbia,1999,0.54642	
+District Of Columbia,2000,0.56356	
+District Of Columbia,2001,0.34337	
+District Of Columbia,2002,0.71394	
+District Of Columbia,2003,0.27182	
+District Of Columbia,2004,0.25024	
+District Of Columbia,2005,0.53546	
+District Of Columbia,2006,0.33183	
+District Of Columbia,2007,0.30839	
+District Of Columbia,2008,0.59142	
+District Of Columbia,2009,0.45659	
+District Of Columbia,2010,0.39840	
+District Of Columbia,2011,0.26347	
+District Of Columbia,2012,0.42534	
+District Of Columbia,2013,0.52787	
+District Of Columbia,2014,0.48308	
+District Of Columbia,2015,0.62323	
+District Of Columbia,2016,0.42952	
+Florida,1990,1.27656	
+Florida,1991,0.19555	
+Florida,1992,0.27671	
+Florida,1993,0.00064	
+Florida,1994,0.00089	
+Florida,1995,0.00057	
+Florida,1996,0.00053	
+Florida,1997,0.13123	
+Florida,1998,0.10601	
+Florida,1999,0.17187	
+Florida,2000,0.36245	
+Florida,2001,0.42222	
+Florida,2002,0.26015	
+Florida,2003,0.33848	
+Florida,2004,0.43482	
+Florida,2005,0.64001	
+Florida,2006,0.42678	
+Florida,2007,0.32136	
+Florida,2008,0.29520	
+Florida,2009,0.36500	
+Florida,2010,0.28819	
+Florida,2011,0.25999	
+Florida,2012,0.41987	
+Florida,2013,0.33313	
+Florida,2014,0.25257	
+Florida,2015,0.21974	
+Florida,2016,0.26901	
+Georgia,1990,0.00837	
+Georgia,1991,0.00084	
+Georgia,1992,0.00080	
+Georgia,1993,0.12913	
+Georgia,1994,0.28741	
+Georgia,1995,0.13763	
+Georgia,1996,0.81886	
+Georgia,1997,0.82301	
+Georgia,1998,0.51797	
+Georgia,1999,1.59570	
+Georgia,2000,1.77847	
+Georgia,2001,1.05370	
+Georgia,2002,0.17922	
+Georgia,2003,0.17942	
+Georgia,2004,0.33801	
+Georgia,2005,0.19800	
+Georgia,2006,0.39332	
+Georgia,2007,0.17573	
+Georgia,2008,0.18760	
+Georgia,2009,0.25836	
+Georgia,2010,0.48409	
+Georgia,2011,0.23826	
+Georgia,2012,0.10113	
+Georgia,2013,0.11033	
+Georgia,2014,0.14443	
+Georgia,2015,0.14469	
+Georgia,2016,0.12371	
+Hawaii,1990,0.00020	
+Hawaii,1991,0.00068	
+Hawaii,1992,0.00019	
+Hawaii,1993,0.00014	
+Hawaii,1994,0.00039	
+Hawaii,1995,0.00044	
+Hawaii,1996,0.00028	
+Hawaii,1997,0.00054	
+Hawaii,1998,0.00026	
+Hawaii,1999,0.00027	
+Hawaii,2000,0.00020	
+Hawaii,2001,0.00017	
+Hawaii,2002,0.05951	
+Hawaii,2003,0.06525	
+Hawaii,2004,0.03569	
+Hawaii,2005,0.13344	
+Hawaii,2006,0.08670	
+Hawaii,2007,0.08670	
+Hawaii,2008,0.11119	
+Hawaii,2009,0.09292	
+Hawaii,2010,0.07645	
+Hawaii,2011,0.03837	
+Hawaii,2012,0.00034	
+Hawaii,2013,0.00185	
+Hawaii,2014,0.00060	
+Hawaii,2015,0.00102	
+Hawaii,2016,0.00067	
+Idaho,1992,0.00023	
+Idaho,1993,0.00040	
+Idaho,1994,0.00044	
+Idaho,1995,0.00028	
+Idaho,1996,0.00046	
+Idaho,1997,0.00030	
+Idaho,1998,0.00038	
+Idaho,1999,0.00050	
+Idaho,2000,0.00038	
+Idaho,2001,0.00055	
+Idaho,2002,0.00436	
+Idaho,2003,0.25151	
+Idaho,2004,0.12104	
+Idaho,2005,0.03671	
+Idaho,2006,1.03333	
+Idaho,2007,0.49791	
+Idaho,2008,0.11728	
+Idaho,2009,0.06152	
+Idaho,2010,0.00034	
+Idaho,2011,0.08075	
+Idaho,2012,0.00038	
+Idaho,2013,0.00047	
+Idaho,2014,0.00018	
+Idaho,2015,0.00039	
+Idaho,2016,0.24290	
+Illinois,1990,0.14576	
+Illinois,1991,0.04530	
+Illinois,1992,3.91183	
+Illinois,1993,0.25887	
+Illinois,1994,0.29144	
+Illinois,1995,0.53256	
+Illinois,1996,0.12331	
+Illinois,1997,0.25825	
+Illinois,1998,0.28521	
+Illinois,1999,0.38426	
+Illinois,2000,0.21553	
+Illinois,2001,0.12693	
+Illinois,2002,0.12611	
+Illinois,2003,0.10065	
+Illinois,2004,0.14420	
+Illinois,2005,0.34812	
+Illinois,2006,0.20430	
+Illinois,2007,0.25450	
+Illinois,2008,0.17773	
+Illinois,2009,0.20044	
+Illinois,2010,0.25126	
+Illinois,2011,0.40841	
+Illinois,2012,0.36544	
+Illinois,2013,0.31208	
+Illinois,2014,0.21783	
+Illinois,2015,0.30041	
+Illinois,2016,0.57803	
+Indiana,1990,4.09898	
+Indiana,1991,1.66142	
+Indiana,1992,2.66064	
+Indiana,1993,2.89723	
+Indiana,1994,0.87980	
+Indiana,1995,1.27136	
+Indiana,1996,0.64751	
+Indiana,1997,0.69381	
+Indiana,1998,0.71498	
+Indiana,1999,0.23698	
+Indiana,2000,0.31986	
+Indiana,2001,0.42644	
+Indiana,2002,0.44404	
+Indiana,2003,0.43129	
+Indiana,2004,0.62504	
+Indiana,2005,0.56123	
+Indiana,2006,1.05054	
+Indiana,2007,0.48773	
+Indiana,2008,1.30910	
+Indiana,2009,0.21478	
+Indiana,2010,0.28453	
+Indiana,2011,0.27182	
+Indiana,2012,0.27141	
+Indiana,2013,0.30803	
+Indiana,2014,0.22274	
+Indiana,2015,0.96725	
+Indiana,2016,0.31824	
+Indiana,2017,0.26336	
+Iowa,1990,0.03320	
+Iowa,2000,0.64667	
+Iowa,2001,0.49186	
+Iowa,2002,0.33786	
+Iowa,2003,0.19716	
+Iowa,2004,0.17593	
+Iowa,2005,0.15163	
+Iowa,2006,0.25081	
+Iowa,2007,0.21200	
+Iowa,2008,0.25395	
+Iowa,2009,0.29421	
+Iowa,2010,0.39173	
+Iowa,2011,0.33203	
+Iowa,2012,0.37203	
+Iowa,2013,0.44342	
+Iowa,2014,0.22298	
+Iowa,2015,0.40070	
+Iowa,2016,0.51084	
+Iowa,2017,1.00000	
+Kansas,1990,1.14082	
+Kansas,1991,0.91820	
+Kansas,1992,0.87029	
+Kansas,1993,0.55919	
+Kansas,1994,0.82951	
+Kansas,1995,0.65715	
+Kansas,1996,1.06422	
+Kansas,1997,1.00274	
+Kansas,1998,1.55405	
+Kansas,2001,0.00354	
+Kansas,2002,0.00096	
+Kansas,2003,0.00108	
+Kansas,2004,0.00087	
+Kansas,2005,0.00109	
+Kansas,2006,0.00079	
+Kansas,2007,0.00102	
+Kansas,2008,0.00078	
+Kansas,2009,0.00555	
+Kansas,2010,0.00160	
+Kansas,2011,0.00086	
+Kansas,2012,0.00133	
+Kansas,2013,0.00074	
+Kansas,2014,0.00055	
+Kansas,2015,0.00104	
+Kansas,2016,0.00036	
+Kentucky,1991,0.00086	
+Kentucky,1992,0.00131	
+Kentucky,1993,0.00071	
+Kentucky,1994,0.00118	
+Kentucky,1995,0.00077	
+Kentucky,1996,0.00079	
+Kentucky,1997,0.00066	
+Kentucky,1998,0.00142	
+Kentucky,1999,0.00151	
+Kentucky,2000,0.00114	
+Kentucky,2001,0.00198	
+Kentucky,2002,0.00222	
+Kentucky,2003,0.06961	
+Kentucky,2004,0.17165	
+Kentucky,2005,0.36043	
+Kentucky,2006,1.01739	
+Kentucky,2007,1.22167	
+Kentucky,2008,0.78377	
+Kentucky,2009,0.70567	
+Kentucky,2010,0.70443	
+Kentucky,2011,0.64021	
+Kentucky,2012,0.30973	
+Kentucky,2013,0.47792	
+Kentucky,2014,0.57650	
+Kentucky,2015,0.53331	
+Kentucky,2016,0.50727	
+Louisiana,1990,0.91459	
+Louisiana,1991,1.20000	
+Louisiana,1992,0.16000	
+Louisiana,1993,2.11761	
+Louisiana,1994,0.90589	
+Louisiana,1995,3.36435	
+Louisiana,1996,1.35570	
+Louisiana,1997,0.78792	
+Louisiana,1998,0.84935	
+Louisiana,1999,0.73159	
+Louisiana,2000,0.77876	
+Louisiana,2001,0.46488	
+Louisiana,2002,0.92393	
+Louisiana,2003,0.35206	
+Louisiana,2004,0.41932	
+Louisiana,2005,0.18642	
+Louisiana,2006,0.35566	
+Louisiana,2007,1.70522	
+Louisiana,2008,0.42808	
+Louisiana,2009,0.58610	
+Louisiana,2010,0.43356	
+Louisiana,2011,0.52537	
+Louisiana,2012,0.46359	
+Louisiana,2013,0.44243	
+Louisiana,2014,0.43298	
+Louisiana,2015,0.38382	
+Louisiana,2016,0.32943	
+Maine,1990,0.00098	
+Maine,1991,0.00131	
+Maine,1992,0.00067	
+Maine,1993,0.07480	
+Maine,1994,0.18830	
+Maine,1995,0.06711	
+Maine,1996,0.23425	
+Maine,1997,0.35528	
+Maine,1998,0.35381	
+Maine,1999,0.33224	
+Maine,2000,0.27710	
+Maine,2001,0.19655	
+Maine,2002,0.12668	
+Maine,2003,0.05221	
+Maine,2004,0.07252	
+Maine,2005,0.08543	
+Maine,2006,0.02896	
+Maine,2007,0.03860	
+Maine,2008,0.07035	
+Maine,2009,0.13243	
+Maine,2010,0.14324	
+Maine,2011,0.10430	
+Maine,2012,0.12362	
+Maine,2013,0.14332	
+Maine,2014,0.12661	
+Maine,2015,0.12801	
+Maine,2016,0.13629	
+Maryland,1991,0.31902	
+Maryland,1992,0.35730	
+Maryland,1993,0.81514	
+Maryland,1994,0.95044	
+Maryland,1995,0.81139	
+Maryland,1996,0.91618	
+Maryland,1997,0.72915	
+Maryland,1998,0.93076	
+Maryland,1999,0.84081	
+Maryland,2000,0.40757	
+Maryland,2001,0.16004	
+Maryland,2002,0.27991	
+Maryland,2003,0.43354	
+Maryland,2004,0.19537	
+Maryland,2005,0.20677	
+Maryland,2006,0.18234	
+Maryland,2007,0.25838	
+Maryland,2008,0.14521	
+Maryland,2009,0.24412	
+Maryland,2010,0.22628	
+Maryland,2011,0.12301	
+Maryland,2012,0.18351	
+Maryland,2013,0.13119	
+Maryland,2014,0.14915	
+Maryland,2015,0.22414	
+Maryland,2016,0.24659	
+Massachusetts,1990,3.02468	
+Massachusetts,1992,2.11750	
+Massachusetts,1993,4.30583	
+Massachusetts,1994,3.46099	
+Massachusetts,1995,2.21076	
+Massachusetts,1996,1.62825	
+Massachusetts,1997,1.56203	
+Massachusetts,1998,1.82140	
+Massachusetts,1999,1.32217	
+Massachusetts,2000,0.51829	
+Massachusetts,2001,0.53669	
+Massachusetts,2002,0.30234	
+Massachusetts,2003,0.37453	
+Massachusetts,2004,0.41752	
+Massachusetts,2005,0.36816	
+Massachusetts,2006,0.37096	
+Massachusetts,2007,0.33731	
+Massachusetts,2008,0.39392	
+Massachusetts,2009,0.31407	
+Massachusetts,2010,0.33532	
+Massachusetts,2011,0.28836	
+Massachusetts,2012,0.25136	
+Massachusetts,2013,0.25971	
+Massachusetts,2014,0.32662	
+Massachusetts,2015,0.30130	
+Massachusetts,2016,0.32488	
+Massachusetts,2017,0.05656	
+Michigan,1990,0.00656	
+Michigan,1991,0.31369	
+Michigan,1992,0.58878	
+Michigan,1993,0.49775	
+Michigan,1994,0.57352	
+Michigan,1995,0.38740	
+Michigan,1996,0.35713	
+Michigan,1997,0.82606	
+Michigan,1998,0.45427	
+Michigan,1999,0.28747	
+Michigan,2000,0.34444	
+Michigan,2001,4.50614	
+Michigan,2002,0.40090	
+Michigan,2003,0.87323	
+Michigan,2004,1.29143	
+Michigan,2005,0.76222	
+Michigan,2006,0.61106	
+Michigan,2007,0.53976	
+Michigan,2008,0.78018	
+Michigan,2009,0.49704	
+Michigan,2010,1.23371	
+Michigan,2011,1.23182	
+Michigan,2012,0.92722	
+Michigan,2013,0.78978	
+Michigan,2014,0.66662	
+Michigan,2015,0.57621	
+Michigan,2016,0.67284	
+Michigan,2017,0.90848	
+Minnesota,1990,0.30649	
+Minnesota,1991,0.15858	
+Minnesota,1992,0.37212	
+Minnesota,1993,0.10624	
+Minnesota,1994,0.55592	
+Minnesota,1995,0.29161	
+Minnesota,1996,0.61637	
+Minnesota,1997,0.74118	
+Minnesota,1998,0.84191	
+Minnesota,1999,0.61491	
+Minnesota,2000,0.77121	
+Minnesota,2001,0.79708	
+Minnesota,2002,0.23871	
+Minnesota,2003,0.16730	
+Minnesota,2004,0.16750	
+Minnesota,2005,0.20587	
+Minnesota,2006,0.19359	
+Minnesota,2007,0.17482	
+Minnesota,2008,0.13492	
+Minnesota,2009,0.17169	
+Minnesota,2010,0.18783	
+Minnesota,2011,0.17943	
+Minnesota,2012,0.17829	
+Minnesota,2013,0.17669	
+Minnesota,2014,0.23176	
+Minnesota,2015,0.08896	
+Minnesota,2016,0.00067	
+Mississippi,1990,0.00267	
+Mississippi,2001,0.76390	
+Mississippi,2002,0.19320	
+Mississippi,2003,0.24220	
+Mississippi,2004,0.29209	
+Mississippi,2005,0.32466	
+Mississippi,2006,0.36599	
+Mississippi,2007,0.33253	
+Mississippi,2008,0.02849	
+Mississippi,2009,0.01070	
+Mississippi,2010,0.25485	
+Mississippi,2011,0.00126	
+Mississippi,2012,0.00130	
+Mississippi,2013,0.13050	
+Mississippi,2014,0.00065	
+Mississippi,2015,0.00138	
+Mississippi,2016,0.00083	
+Missouri,1990,0.00560	
+Missouri,2000,0.00403	
+Missouri,2001,0.32053	
+Missouri,2002,0.32637	
+Missouri,2003,0.32106	
+Missouri,2004,0.31981	
+Missouri,2005,0.59540	
+Missouri,2006,0.39937	
+Missouri,2007,0.76755	
+Missouri,2008,0.79326	
+Missouri,2009,0.89951	
+Missouri,2010,1.02319	
+Missouri,2011,0.15273	
+Missouri,2012,0.14336	
+Missouri,2013,0.09760	
+Missouri,2014,0.08965	
+Missouri,2015,0.10460	
+Missouri,2016,0.25748	
+Montana,1990,2.06868	
+Montana,1991,0.76700	
+Montana,1992,0.89094	
+Montana,1993,0.00095	
+Montana,1994,0.00198	
+Montana,1995,0.41364	
+Montana,1996,1.60047	
+Montana,1997,0.01292	
+Montana,1998,0.02210	
+Montana,1999,0.01143	
+Montana,2000,0.00725	
+Montana,2001,0.00073	
+Montana,2002,0.00051	
+Montana,2003,0.00039	
+Montana,2004,0.00054	
+Montana,2005,0.00048	
+Montana,2006,0.00049	
+Montana,2007,0.00044	
+Montana,2008,0.00038	
+Montana,2009,0.00030	
+Montana,2010,0.00027	
+Montana,2011,0.00026	
+Montana,2012,0.00035	
+Montana,2013,0.00030	
+Montana,2014,0.00029	
+Montana,2015,0.00029	
+Montana,2016,0.00101	
+Nebraska,2001,0.00110	
+Nebraska,2002,0.22878	
+Nebraska,2003,0.07392	
+Nebraska,2004,0.00072	
+Nebraska,2005,0.00241	
+Nebraska,2006,0.00116	
+Nebraska,2007,0.00064	
+Nebraska,2008,0.00061	
+Nebraska,2009,0.00066	
+Nebraska,2010,0.00114	
+Nebraska,2011,0.00106	
+Nebraska,2012,0.00091	
+Nebraska,2013,0.00068	
+Nebraska,2014,0.00042	
+Nebraska,2015,0.00042	
+Nebraska,2016,0.00149	
+Nevada,1990,0.00042	
+Nevada,1991,0.00048	
+Nevada,1992,0.00033	
+Nevada,1993,0.00030	
+Nevada,1994,0.00066	
+Nevada,1995,0.00033	
+Nevada,1996,0.00041	
+Nevada,1997,0.00035	
+Nevada,1998,0.00039	
+Nevada,1999,0.00053	
+Nevada,2000,0.00033	
+Nevada,2001,0.00051	
+Nevada,2002,0.00079	
+Nevada,2003,0.00100	
+Nevada,2004,0.00083	
+Nevada,2005,0.00175	
+Nevada,2006,0.00112	
+Nevada,2007,0.00134	
+Nevada,2008,0.00187	
+Nevada,2009,0.00380	
+Nevada,2010,0.00136	
+Nevada,2011,0.00079	
+Nevada,2012,0.00072	
+Nevada,2013,0.00076	
+Nevada,2014,0.00051	
+Nevada,2015,0.00096	
+Nevada,2016,0.00027	
+New Hampshire,1995,0.00014	
+New Hampshire,1996,0.00019	
+New Hampshire,1997,0.00155	
+New Hampshire,1998,0.07031	
+New Hampshire,1999,0.37486	
+New Hampshire,2000,0.08368	
+New Hampshire,2001,0.00251	
+New Hampshire,2002,0.29768	
+New Hampshire,2003,0.54330	
+New Hampshire,2004,0.34794	
+New Hampshire,2005,0.18060	
+New Hampshire,2006,0.15235	
+New Hampshire,2007,0.18400	
+New Hampshire,2008,0.25404	
+New Hampshire,2009,0.11731	
+New Hampshire,2010,0.07540	
+New Hampshire,2011,0.01964	
+New Hampshire,2012,0.02843	
+New Hampshire,2013,0.04243	
+New Hampshire,2014,0.03920	
+New Hampshire,2015,0.05082	
+New Hampshire,2016,0.04701	
+New Jersey,1990,0.29334	
+New Jersey,1991,1.04856	
+New Jersey,1992,0.31772	
+New Jersey,1993,0.86910	
+New Jersey,1994,1.00773	
+New Jersey,1995,0.88440	
+New Jersey,1996,0.66280	
+New Jersey,1997,1.84819	
+New Jersey,1998,1.06655	
+New Jersey,1999,1.11216	
+New Jersey,2000,0.69827	
+New Jersey,2001,0.57293	
+New Jersey,2002,0.54272	
+New Jersey,2003,0.42296	
+New Jersey,2004,0.35510	
+New Jersey,2005,0.40245	
+New Jersey,2006,0.25808	
+New Jersey,2007,0.24253	
+New Jersey,2008,0.24940	
+New Jersey,2009,0.35237	
+New Jersey,2010,0.23792	
+New Jersey,2011,0.21585	
+New Jersey,2012,0.22490	
+New Jersey,2013,0.25048	
+New Jersey,2014,0.28629	
+New Jersey,2015,0.17719	
+New Jersey,2016,0.52123	
+New Mexico,1990,0.00082	
+New Mexico,1991,0.00040	
+New Mexico,1992,0.00032	
+New Mexico,1993,0.00040	
+New Mexico,1994,0.00071	
+New Mexico,1995,0.00071	
+New Mexico,1996,0.00045	
+New Mexico,1997,0.00065	
+New Mexico,1998,0.00046	
+New Mexico,1999,0.00066	
+New Mexico,2000,0.00048	
+New Mexico,2001,0.05087	
+New Mexico,2002,0.06770	
+New Mexico,2003,0.08911	
+New Mexico,2004,0.02337	
+New Mexico,2005,0.00041	
+New Mexico,2006,0.00061	
+New Mexico,2007,0.00034	
+New Mexico,2008,0.33444	
+New Mexico,2009,0.00104	
+New Mexico,2010,0.00045	
+New Mexico,2011,0.02868	
+New Mexico,2012,0.00049	
+New Mexico,2013,0.00078	
+New Mexico,2014,0.00070	
+New Mexico,2015,0.00661	
+New Mexico,2016,0.00064	
+New York,1990,1.36297	
+New York,1991,0.88528	
+New York,1992,0.80760	
+New York,1993,0.85943	
+New York,1994,0.93274	
+New York,1995,0.52881	
+New York,1996,0.69447	
+New York,1997,0.57846	
+New York,1998,1.22253	
+New York,1999,0.45289	
+New York,2000,0.51729	
+New York,2001,0.27869	
+New York,2002,0.24164	
+New York,2003,0.29532	
+New York,2004,0.18672	
+New York,2005,0.17079	
+New York,2006,0.22101	
+New York,2007,0.41690	
+New York,2008,0.32217	
+New York,2009,0.23537	
+New York,2010,0.24802	
+New York,2011,0.23449	
+New York,2012,0.27434	
+New York,2013,0.20154	
+New York,2014,0.19429	
+New York,2015,0.28340	
+New York,2016,0.31822	
+New York,2017,0.10769	
+North Carolina,1990,0.01430	
+North Carolina,1994,0.00066	
+North Carolina,1995,2.08436	
+North Carolina,1996,1.35480	
+North Carolina,1997,1.39851	
+North Carolina,1998,1.19414	
+North Carolina,1999,0.99238	
+North Carolina,2000,0.00057	
+North Carolina,2001,0.00105	
+North Carolina,2002,0.02682	
+North Carolina,2003,0.07181	
+North Carolina,2004,0.12219	
+North Carolina,2005,0.16204	
+North Carolina,2006,0.16945	
+North Carolina,2007,0.34356	
+North Carolina,2008,0.26838	
+North Carolina,2009,0.14507	
+North Carolina,2010,0.14670	
+North Carolina,2011,0.05151	
+North Carolina,2012,0.08496	
+North Carolina,2013,0.10645	
+North Carolina,2014,0.11758	
+North Carolina,2015,0.13429	
+North Carolina,2016,0.14252	
+North Dakota,1999,0.27234	
+North Dakota,2000,0.19177	
+North Dakota,2001,0.07458	
+North Dakota,2002,0.06542	
+North Dakota,2003,0.01124	
+North Dakota,2004,0.00229	
+North Dakota,2005,0.00106	
+North Dakota,2006,0.00119	
+North Dakota,2007,0.00098	
+North Dakota,2008,0.00065	
+North Dakota,2009,0.00063	
+North Dakota,2010,0.00092	
+North Dakota,2011,0.00189	
+North Dakota,2012,0.00112	
+North Dakota,2013,0.00130	
+North Dakota,2014,0.00102	
+North Dakota,2015,0.00114	
+North Dakota,2016,0.00055	
+Ohio,1990,0.13572	
+Ohio,1991,0.00000	
+Ohio,1992,0.00000	
+Ohio,1993,0.62673	
+Ohio,1994,0.70748	
+Ohio,1995,0.19826	
+Ohio,1996,0.29335	
+Ohio,1997,0.00232	
+Ohio,1998,0.21750	
+Ohio,1999,0.28198	
+Ohio,2000,0.41402	
+Ohio,2001,0.10404	
+Ohio,2002,0.27880	
+Ohio,2003,0.15253	
+Ohio,2004,0.19217	
+Ohio,2005,0.34875	
+Ohio,2006,0.17834	
+Ohio,2007,0.07910	
+Ohio,2008,0.20545	
+Ohio,2009,0.76678	
+Ohio,2010,0.59700	
+Ohio,2011,0.20050	
+Ohio,2012,0.27495	
+Ohio,2013,1.85874	
+Ohio,2014,0.20173	
+Ohio,2015,0.56600	
+Ohio,2016,0.82345	
+Ohio,2017,0.05833	
+Oklahoma,1990,0.00000	
+Oklahoma,2001,0.00115	
+Oklahoma,2002,0.00127	
+Oklahoma,2003,0.00248	
+Oklahoma,2004,0.00084	
+Oklahoma,2005,0.12490	
+Oklahoma,2006,0.15035	
+Oklahoma,2007,0.26665	
+Oklahoma,2008,0.14946	
+Oklahoma,2009,0.30729	
+Oklahoma,2010,0.26670	
+Oklahoma,2011,0.30822	
+Oklahoma,2012,0.31677	
+Oklahoma,2013,0.22943	
+Oklahoma,2014,0.21402	
+Oklahoma,2015,0.23101	
+Oklahoma,2016,0.26788	
+Oregon,1990,0.00086	
+Oregon,1991,0.00041	
+Oregon,1992,0.00099	
+Oregon,1993,0.00024	
+Oregon,1994,0.00039	
+Oregon,1995,0.00321	
+Oregon,1996,0.00039	
+Oregon,1997,0.00034	
+Oregon,1998,0.00057	
+Oregon,1999,1.52181	
+Oregon,2000,0.91326	
+Oregon,2001,0.18934	
+Oregon,2002,0.12975	
+Oregon,2003,0.14935	
+Oregon,2004,0.69784	
+Oregon,2005,0.77123	
+Oregon,2006,0.42671	
+Oregon,2007,0.35674	
+Oregon,2008,0.30580	
+Oregon,2009,0.39815	
+Oregon,2010,0.40540	
+Oregon,2011,0.34727	
+Oregon,2012,0.26517	
+Oregon,2013,0.12593	
+Oregon,2014,0.24232	
+Oregon,2015,0.24870	
+Oregon,2016,0.17483	
+Pennsylvania,1990,0.10596	
+Pennsylvania,1991,0.21667	
+Pennsylvania,1993,2.57509	
+Pennsylvania,1994,1.80544	
+Pennsylvania,1995,1.46642	
+Pennsylvania,1996,1.91128	
+Pennsylvania,1997,1.45045	
+Pennsylvania,1998,0.83178	
+Pennsylvania,1999,1.16290	
+Pennsylvania,2000,0.48871	
+Pennsylvania,2001,0.36170	
+Pennsylvania,2002,0.22151	
+Pennsylvania,2003,0.38239	
+Pennsylvania,2004,0.26019	
+Pennsylvania,2005,0.29230	
+Pennsylvania,2006,0.25610	
+Pennsylvania,2007,0.30204	
+Pennsylvania,2008,0.23738	
+Pennsylvania,2009,0.22979	
+Pennsylvania,2010,0.20590	
+Pennsylvania,2011,0.24494	
+Pennsylvania,2012,0.26081	
+Pennsylvania,2013,0.25496	
+Pennsylvania,2014,0.19467	
+Pennsylvania,2015,0.16176	
+Pennsylvania,2016,0.40722	
+Puerto Rico,1990,0.01005	
+Puerto Rico,2001,0.38032	
+Puerto Rico,2002,0.51547	
+Puerto Rico,2003,0.18263	
+Puerto Rico,2004,0.00177	
+Puerto Rico,2005,0.27106	
+Puerto Rico,2006,1.84630	
+Puerto Rico,2007,1.06077	
+Puerto Rico,2016,0.00030	
+Rhode Island,1994,3.36357	
+Rhode Island,1995,2.73130	
+Rhode Island,1996,1.70168	
+Rhode Island,1997,2.03347	
+Rhode Island,1998,0.53766	
+Rhode Island,1999,0.38794	
+Rhode Island,2000,0.23536	
+Rhode Island,2001,0.54074	
+Rhode Island,2002,0.41047	
+Rhode Island,2003,0.40504	
+Rhode Island,2004,0.54027	
+Rhode Island,2005,0.37145	
+Rhode Island,2006,0.42204	
+Rhode Island,2007,0.33638	
+Rhode Island,2008,0.30363	
+Rhode Island,2009,0.34877	
+Rhode Island,2010,0.20991	
+Rhode Island,2011,0.14150	
+Rhode Island,2012,0.18857	
+Rhode Island,2013,0.16107	
+Rhode Island,2014,0.18136	
+Rhode Island,2015,0.24673	
+Rhode Island,2016,0.17500	
+South Carolina,1990,0.55981	
+South Carolina,1991,0.79821	
+South Carolina,1992,0.00276	
+South Carolina,1993,0.00599	
+South Carolina,1994,0.08517	
+South Carolina,1995,0.09028	
+South Carolina,1996,0.27115	
+South Carolina,1997,0.21156	
+South Carolina,1998,0.24251	
+South Carolina,1999,0.15906	
+South Carolina,2000,0.20154	
+South Carolina,2001,0.12472	
+South Carolina,2002,0.15620	
+South Carolina,2003,0.23320	
+South Carolina,2004,0.19915	
+South Carolina,2005,0.24230	
+South Carolina,2006,0.25761	
+South Carolina,2007,0.23900	
+South Carolina,2008,0.23581	
+South Carolina,2009,0.27945	
+South Carolina,2010,0.41571	
+South Carolina,2011,0.48314	
+South Carolina,2012,0.28978	
+South Carolina,2013,0.64568	
+South Carolina,2014,0.37860	
+South Carolina,2015,0.75245	
+South Carolina,2016,2.06249	
+South Dakota,1990,0.00057	
+South Dakota,1991,0.00029	
+South Dakota,1992,0.00050	
+South Dakota,1993,0.00025	
+South Dakota,1994,0.00051	
+South Dakota,1995,0.00069	
+South Dakota,1996,0.00102	
+South Dakota,1997,0.00033	
+South Dakota,1998,0.00055	
+South Dakota,1999,0.00047	
+South Dakota,2000,0.07667	
+South Dakota,2001,0.10393	
+South Dakota,2002,0.29955	
+South Dakota,2003,0.25405	
+South Dakota,2004,0.18190	
+South Dakota,2005,0.29893	
+South Dakota,2006,0.19676	
+South Dakota,2007,0.22162	
+South Dakota,2008,0.23967	
+South Dakota,2009,0.15450	
+South Dakota,2010,0.25346	
+South Dakota,2011,0.18771	
+South Dakota,2012,0.11691	
+South Dakota,2013,0.00046	
+South Dakota,2014,0.00039	
+South Dakota,2015,0.00047	
+South Dakota,2016,0.00021	
+Tennessee,1990,170.40093	
+Tennessee,1991,0.25620	
+Tennessee,1992,0.00947	
+Tennessee,1993,0.07379	
+Tennessee,1994,0.01745	
+Tennessee,1995,0.01870	
+Tennessee,1996,0.06246	
+Tennessee,1997,0.00599	
+Tennessee,1998,0.05810	
+Tennessee,1999,0.00081	
+Tennessee,2000,0.00080	
+Tennessee,2001,0.00128	
+Tennessee,2002,0.05101	
+Tennessee,2003,0.16866	
+Tennessee,2004,0.20545	
+Tennessee,2005,0.08610	
+Tennessee,2006,0.21342	
+Tennessee,2007,0.16206	
+Tennessee,2008,0.20312	
+Tennessee,2009,0.23723	
+Tennessee,2010,0.03624	
+Tennessee,2011,0.09005	
+Tennessee,2012,0.00099	
+Tennessee,2013,0.00134	
+Tennessee,2014,0.00149	
+Tennessee,2015,0.00095	
+Tennessee,2016,0.00110	
+Texas,1990,1.48247	
+Texas,1991,0.28005	
+Texas,1992,1.34767	
+Texas,1993,0.84000	
+Texas,1994,0.95572	
+Texas,1995,1.20438	
+Texas,1996,1.48197	
+Texas,1997,1.30216	
+Texas,1998,0.97471	
+Texas,1999,1.07413	
+Texas,2000,0.85967	
+Texas,2001,0.66784	
+Texas,2002,0.54416	
+Texas,2003,0.57336	
+Texas,2004,0.50006	
+Texas,2005,0.70837	
+Texas,2006,0.68284	
+Texas,2007,0.61937	
+Texas,2008,0.63014	
+Texas,2009,0.45770	
+Texas,2010,0.54974	
+Texas,2011,0.58719	
+Texas,2012,0.52529	
+Texas,2013,0.53493	
+Texas,2014,0.43181	
+Texas,2015,0.59847	
+Texas,2016,0.60757	
+Utah,1990,0.00080	
+Utah,1991,0.00034	
+Utah,1992,0.00028	
+Utah,1993,0.00035	
+Utah,1994,0.00043	
+Utah,1995,0.00051	
+Utah,1996,0.00067	
+Utah,1997,0.00054	
+Utah,1998,0.00051	
+Utah,1999,0.03483	
+Utah,2000,0.22882	
+Utah,2001,0.20179	
+Utah,2002,0.13007	
+Utah,2003,0.89711	
+Utah,2004,0.47913	
+Utah,2005,0.20484	
+Utah,2006,0.19790	
+Utah,2007,0.17534	
+Utah,2008,0.24462	
+Utah,2009,0.65644	
+Utah,2010,0.19463	
+Utah,2011,0.21777	
+Utah,2012,0.23681	
+Utah,2013,0.35396	
+Utah,2014,0.51002	
+Utah,2015,0.35926	
+Utah,2016,1.34632	
+Vermont,1991,0.00156	
+Vermont,1992,0.00050	
+Vermont,1993,0.13674	
+Vermont,1994,0.91072	
+Vermont,1995,1.06337	
+Vermont,1996,0.48723	
+Vermont,1997,0.81712	
+Vermont,1998,0.55120	
+Vermont,1999,0.58308	
+Vermont,2000,0.28812	
+Vermont,2001,0.27227	
+Vermont,2002,0.23330	
+Vermont,2003,0.17517	
+Vermont,2004,0.12277	
+Vermont,2005,0.18029	
+Vermont,2006,0.14394	
+Vermont,2007,0.18008	
+Vermont,2008,0.22128	
+Vermont,2009,0.12072	
+Vermont,2010,0.18744	
+Vermont,2011,0.17786	
+Vermont,2012,0.07361	
+Vermont,2013,0.13215	
+Vermont,2014,0.06828	
+Vermont,2015,0.12186	
+Vermont,2016,0.20781	
+Vermont,2017,0.01333	
+Virgin Islands,1990,0.00000	
+Virgin Islands,1991,0.00096	
+Virgin Islands,1992,0.00166	
+Virgin Islands,1993,0.00101	
+Virgin Islands,1994,0.00122	
+Virgin Islands,1995,0.00047	
+Virgin Islands,1996,0.00102	
+Virgin Islands,1997,0.00052	
+Virgin Islands,1998,0.00038	
+Virgin Islands,1999,0.00108	
+Virgin Islands,2000,0.00023	
+Virgin Islands,2001,0.00077	
+Virgin Islands,2002,0.00087	
+Virgin Islands,2003,0.00022	
+Virgin Islands,2004,0.00072	
+Virgin Islands,2005,0.00050	
+Virgin Islands,2006,0.00104	
+Virgin Islands,2007,0.00015	
+Virgin Islands,2008,0.00013	
+Virgin Islands,2009,0.00071	
+Virgin Islands,2010,0.00152	
+Virgin Islands,2011,0.15315	
+Virgin Islands,2012,0.00031	
+Virgin Islands,2013,0.00048	
+Virgin Islands,2014,0.00061	
+Virgin Islands,2015,0.00091	
+Virgin Islands,2016,0.00065	
+Virginia,1990,0.84514	
+Virginia,1991,0.23651	
+Virginia,1992,0.00055	
+Virginia,1993,0.00076	
+Virginia,1994,0.07425	
+Virginia,1995,0.07012	
+Virginia,1996,0.18742	
+Virginia,1997,0.08280	
+Virginia,1998,0.43365	
+Virginia,1999,0.44898	
+Virginia,2000,0.46835	
+Virginia,2001,0.40354	
+Virginia,2002,0.36981	
+Virginia,2003,0.32052	
+Virginia,2004,0.20417	
+Virginia,2005,0.21017	
+Virginia,2006,0.30131	
+Virginia,2007,0.27501	
+Virginia,2008,0.27637	
+Virginia,2009,0.25165	
+Virginia,2010,0.26737	
+Virginia,2011,0.25735	
+Virginia,2012,0.23450	
+Virginia,2013,0.22210	
+Virginia,2014,0.29293	
+Virginia,2015,0.23815	
+Virginia,2016,0.23752	
+Washington,1990,0.00060	
+Washington,1991,0.00071	
+Washington,1992,0.00027	
+Washington,1993,0.00078	
+Washington,1994,0.00055	
+Washington,1995,0.53671	
+Washington,1996,0.70437	
+Washington,1997,0.00137	
+Washington,1998,0.00100	
+Washington,1999,0.00126	
+Washington,2000,0.20950	
+Washington,2001,0.19886	
+Washington,2002,0.10747	
+Washington,2003,0.11556	
+Washington,2004,0.22956	
+Washington,2005,0.77272	
+Washington,2006,0.05557	
+Washington,2007,0.07212	
+Washington,2008,0.06883	
+Washington,2009,0.13142	
+Washington,2010,0.06108	
+Washington,2011,0.08076	
+Washington,2012,0.25355	
+Washington,2013,0.02617	
+Washington,2014,0.02349	
+Washington,2015,0.02214	
+Washington,2016,0.13776	
+West Virginia,1990,0.00000	
+West Virginia,1991,0.00055	
+West Virginia,1992,0.00082	
+West Virginia,1993,0.00091	
+West Virginia,1994,0.00103	
+West Virginia,1995,0.00144	
+West Virginia,1996,0.00111	
+West Virginia,1997,0.00105	
+West Virginia,1998,0.00096	
+West Virginia,1999,0.00075	
+West Virginia,2000,0.00077	
+West Virginia,2001,0.01079	
+West Virginia,2002,0.03538	
+West Virginia,2003,0.04652	
+West Virginia,2004,0.00152	
+West Virginia,2005,0.11652	
+West Virginia,2006,0.17084	
+West Virginia,2007,0.35208	
+West Virginia,2008,0.19179	
+West Virginia,2009,0.19528	
+West Virginia,2010,0.25023	
+West Virginia,2011,0.15482	
+West Virginia,2012,0.19949	
+West Virginia,2013,0.13578	
+West Virginia,2014,0.19994	
+West Virginia,2015,0.37026	
+West Virginia,2016,0.13106	
+Wisconsin,1990,0.00000	
+Wisconsin,1991,0.11625	
+Wisconsin,1992,0.82237	
+Wisconsin,1993,0.24084	
+Wisconsin,1994,2.95048	
+Wisconsin,1995,2.50224	
+Wisconsin,1996,1.30975	
+Wisconsin,1997,1.67155	
+Wisconsin,1998,2.49189	
+Wisconsin,1999,1.89894	
+Wisconsin,2000,0.42963	
+Wisconsin,2001,0.41756	
+Wisconsin,2002,0.16060	
+Wisconsin,2003,0.13836	
+Wisconsin,2004,0.24423	
+Wisconsin,2005,0.43796	
+Wisconsin,2006,0.55068	
+Wisconsin,2007,0.56659	
+Wisconsin,2008,0.51963	
+Wisconsin,2009,0.33344	
+Wisconsin,2010,0.47944	
+Wisconsin,2011,0.29442	
+Wisconsin,2012,0.26120	
+Wisconsin,2013,0.31241	
+Wisconsin,2014,0.32943	
+Wisconsin,2015,0.35924	
+Wisconsin,2016,0.50267	
+Wyoming,1990,0.00060	
+Wyoming,1991,0.00033	
+Wyoming,1992,0.00047	
+Wyoming,1993,0.00021	
+Wyoming,1994,0.00037	
+Wyoming,1995,0.00035	
+Wyoming,1996,0.00036	
+Wyoming,1997,0.00033	
+Wyoming,1998,0.00054	
+Wyoming,1999,0.00051	
+Wyoming,2000,0.00031	
+Wyoming,2001,0.00030	
+Wyoming,2002,0.00029	
+Wyoming,2003,0.00016	
+Wyoming,2004,0.00017	
+Wyoming,2005,0.00025	
+Wyoming,2006,0.00034	
+Wyoming,2007,0.00016	
+Wyoming,2008,0.00017	
+Wyoming,2009,0.00012	
+Wyoming,2010,0.00024	
+Wyoming,2011,0.00034	
+Wyoming,2012,0.00046	
+Wyoming,2013,0.00062	
+Wyoming,2014,0.00021	
+Wyoming,2015,0.00042	
+Wyoming,2016,0.00009	

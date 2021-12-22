@@ -3,7 +3,7 @@ from operator import add as sum
 
 sc = pyspark.SparkContext('local[*]')
 try:
-    lines = sc.textFile('log.csv') # Change the name of the file to what you have it named here
+    lines = sc.textFile('../data/epa_hap_daily_summary-small.csv') # Change the name of the file to what you have it named here
     logTuples = lines.filter( lambda line: len(line) > 0) \
                      .zipWithIndex() \
                      .filter( lambda x: x[1] > 0) \
@@ -14,8 +14,10 @@ try:
     MonitorCounts = DistinctTuples.map( lambda x: (x[1], 1) ) \
                                   .reduceByKey(sum) \
                                   .sortBy( lambda x: x[1], ascending = False)
-    for row in MonitorCounts.collect():
-        print(row)
+    rank = 1
+    for state,number in MonitorCounts.collect():
+        print(f"{rank}. {state}:{number}")
+        rank += 1
     sc.stop()
 except Exception as err:
     print(err)
