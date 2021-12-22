@@ -1,9 +1,11 @@
 from sys import stdin
 import logging
 
-MAGIC = 999999999
+
 
 def main():
+    MAGIC = 999999999
+    
     for line in stdin:
         line = line.strip()
         logging.debug(line)
