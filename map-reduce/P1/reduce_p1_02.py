@@ -4,6 +4,7 @@ import logging
 def main():
     current_key = None
     accumulator = 1
+    
     for line in stdin:
         line = line.strip()
         key, value = line.split(':')

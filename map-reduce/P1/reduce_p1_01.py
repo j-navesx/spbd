@@ -1,10 +1,12 @@
 from sys import stdin
 import logging
 
-last_id = None
-last_county = None
+
 
 def main():
+    last_id = None
+    last_county = None
+    
     for line in stdin:
         line = line.strip()
         id, county, state = line.split(':')

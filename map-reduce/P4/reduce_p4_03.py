@@ -16,7 +16,6 @@ def main():
         else:
             distance_sum += distance
             distance_len += 1
-            
 
 
 if __name__ == '__main__':
