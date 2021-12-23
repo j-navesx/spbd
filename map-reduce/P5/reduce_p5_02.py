@@ -20,10 +20,8 @@ with open(STATE_FILE, encoding="utf-8") as states_file:
 for line in sys.stdin:
     
     line = line.strip()
-    
-    state_county_site_numb,lat,lon = line.split('\t')
 
-    state,county,site_numb = state_county_site_numb.split(',') #space important because of the print done in the map function 
+    state,county,site_numb,lat,lon = line.split(',') #space important because of the print done in the map function 
                                                               #or else state != stat[1] always
 
     if state == last_state:        

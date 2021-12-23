@@ -1,6 +1,8 @@
 import sys
 
-last_state_county_site_numb = None
+last_state = None
+last_county = None
+last_site = None
 last_lat = None
 last_lon = None
 
@@ -8,11 +10,13 @@ for line in sys.stdin:
     
     line = line.strip()
     
-    state_county_site_numb,lat,lon = line.split('\t')
+    state,countyCode,siteNum,lat,lon = line.split(',')
 
-    if state_county_site_numb != last_state_county_site_numb and lat != last_lat and lon != last_lon:
-        if last_state_county_site_numb:   #if None then doesn't print
-            print(f"{line}")
-        last_state_county_site_numb = state_county_site_numb
+    if last_state != state or last_county != countyCode or last_site != siteNum or lat != last_lat or lon != last_lon:
+        if last_state:
+            print(f"{last_state},{last_county},{last_site},{last_lat},{last_lon}")
+        last_state = state
+        last_county = countyCode
+        last_site = siteNum
         last_lat = lat
         last_lon = lon
