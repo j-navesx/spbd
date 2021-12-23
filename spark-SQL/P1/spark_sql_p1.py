@@ -16,15 +16,7 @@ try:
     logRowsDF = spark.createDataFrame( logRows )
     logRowsDF.createOrReplaceTempView("log")
 
-    query = "SELECT state_name, \
-        COUNT(state_name) \
-        FROM (SELECT site_num, \
-            CONCAT(state_code,county_code) as county, \
-            state_name \
-            FROM log GROUP BY county, site_num \
-        ) \
-        GROUP BY state_name \
-        ORDER BY rank DESC"
+    query = query = "SELECT state_name, COUNT(*) AS number_monitors FROM (SELECT DISTINCT * FROM log) GROUP BY state_name ORDER BY number_monitors DESC"
 
     final = spark.sql(query)
 
