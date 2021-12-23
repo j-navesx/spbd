@@ -17,5 +17,7 @@ With these infrastructures we answer the following questions:
 4. For each state, what is the average distance (in km) of the monitors in that state to the state center?
 5. How many sensors there are per quadrant (NW, NE, SE, SW) in each state?
 ## Execution
-To download the data set use the notebook provided inside the [Data](data/) folder
+Please download the data in this link: https://tinyurl.com/drnfupyb \
+In order for the program to work execute the notebooks in their respective folder \
+Also create a folder called `data` on the main directory of this repo \
 To execute find the folders for the respective infrastructures and run the python notebook using `Jupyter`
