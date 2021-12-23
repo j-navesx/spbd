@@ -20,8 +20,8 @@ try:
     finalDF = logRowsDF.withColumn('county', (col('state_code')+col('county_code'))) \
                     .drop('state_code') \
                     .drop('county_code') \
-                    .groupBy('county','county_name').sum('arithmetic_mean') \
-                    .withColumnRenamed('sum(arithmetic_mean)', 'pollutant_levels') \
+                    .groupBy('county','county_name').avg('arithmetic_mean') \
+                    .withColumnRenamed('avg(arithmetic_mean)', 'pollutant_levels') \
                     .orderBy(col('pollutant_levels').desc()) \
                     .drop('county') \
 

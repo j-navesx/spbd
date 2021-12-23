@@ -16,9 +16,7 @@ try:
     logRowsDF = spark.createDataFrame( logRows )
     logRowsDF.createOrReplaceTempView("log")
 
-    stateRanksDF = spark.sql("SELECT State, \
-        countyCode AS County_Code, \
-        County, \
+    stateRanksDF = spark.sql("SELECT County, \
         AVG(Arithmetic_mean) AS Pollutant_levels \
         FROM log GROUP BY State, countyCode, County \
         ORDER BY Pollutant_levels DESC")

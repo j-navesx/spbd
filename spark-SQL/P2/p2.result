@@ -1,106 +1,106 @@
-+-----------------+-----------+--------------------+------------------+
-|            State|County_Code|              County|  Pollutant_levels|
-+-----------------+-----------+--------------------+------------------+
-|        Tennessee|        167|              Tipton|            2556.0|
-|         New York|        059|              Nassau|              19.0|
-|             Ohio|        029|          Columbiana| 7.385690735785953|
-|          Montana|        067|                Park| 5.611212121212121|
-|Country Of Mexico|        006|     CHIHUAHUA STATE|         4.5121875|
-|   North Carolina|        027|            Caldwell| 4.116666666666667|
-|       California|        031|               Kings|3.9843770491803276|
-|       California|        039|              Madera|            3.7393|
-|   North Carolina|        069|            Franklin|3.3499999999999996|
-|         Colorado|        059|           Jefferson|              3.07|
-|         Michigan|        125|             Oakland| 2.888877848101266|
-|         Illinois|        097|                Lake| 2.879328647058823|
-|          Florida|        031|               Duval|2.7794603978494625|
-|    Massachusetts|        017|           Middlesex|2.6500000000000004|
-|           Kansas|        093|              Kearny|2.3753333333333333|
-|     Pennsylvania|        017|               Bucks|2.3674999999999997|
-|       California|        079|     San Luis Obispo|2.3333333333333335|
-|   North Carolina|        065|           Edgecombe|             2.325|
-|           Kansas|        145|              Pawnee|2.2941176470588234|
-|         New York|        119|         Westchester|          2.239375|
-|   North Carolina|        101|            Johnston|             2.225|
-|      Connecticut|        003|            Hartford|2.0787055896226416|
-|   North Carolina|        077|           Granville|2.0285714285714285|
-|       Washington|        003|              Asotin|             2.025|
-|   North Carolina|        061|              Duplin|               2.0|
-|         Colorado|        013|             Boulder| 1.960470901234568|
-|         Arkansas|        035|          Crittenden|1.9000000000000001|
-|   North Carolina|        199|              Yancey|               1.9|
-|       California|        037|         Los Angeles|1.8391350859879247|
-|         Michigan|        163|               Wayne|1.8262007365148463|
-|        Louisiana|        047|           Iberville|1.8213132266666665|
-|   North Carolina|        033|             Caswell|           1.80075|
-|   North Carolina|        037|             Chatham|               1.8|
-|   North Carolina|        147|                Pitt|1.7999999999999998|
-|             Iowa|        045|             Clinton|1.7583018867924527|
-|       California|        025|            Imperial|1.6478600515463917|
-|          Montana|        043|           Jefferson| 1.592159090909091|
-|       California|        033|                Lake| 1.577142857142857|
-|        Wisconsin|        089|             Ozaukee|        1.55733332|
-|          Montana|        095|          Stillwater|1.5384615384615385|
-|        Minnesota|        035|           Crow Wing| 1.532046511627907|
-|        Louisiana|        051|           Jefferson|1.5020496153846155|
-|         Kentucky|        019|                Boyd| 1.485702254901961|
-|       New Jersey|        015|          Gloucester|1.4814285714285715|
-|         Kentucky|        101|           Henderson|1.4295509090909093|
-|          Alabama|        117|              Shelby|1.3927777777777777|
-|            Maine|        011|            Kennebec|             1.375|
-|       California|        099|          Stanislaus|1.2781941269841275|
-|             Iowa|        139|           Muscatine|            1.2375|
-|          Montana|        023|          Deer Lodge|1.2135793388429752|
-|         Colorado|        077|                Mesa|1.2109524924242425|
-|       Washington|        063|             Spokane|1.1469733510638298|
-|        Louisiana|        033|    East Baton Rouge|1.1444728456659612|
-|            Texas|        201|              Harris|1.1426282723128096|
-|             Utah|        011|               Davis|1.1418481240188378|
-|          Montana|        071|            Phillips|1.1414093959731544|
-|         Michigan|        157|             Tuscola|     1.13696140625|
-|            Idaho|        069|           Nez Perce|1.1226492795389047|
-|      Puerto Rico|        021|             Bayamon|1.1200363636363637|
-|         Michigan|        139|              Ottawa|         1.1110375|
-|            Maine|        031|                York|1.0842636320754717|
-|        Minnesota|        117|           Pipestone|1.0807463414634146|
-|           Kansas|        209|           Wyandotte|1.0779660104986872|
-|          Indiana|        089|                Lake|1.0760213851902174|
-|       New Jersey|        017|              Hudson|         1.0754546|
-|            Texas|        491|          Williamson|1.0616129032258064|
-|         Missouri|        510|      St. Louis City|1.0544578440366965|
-|        Minnesota|        173|     Yellow Medicine|1.0511541666666666|
-|       California|        077|         San Joaquin|1.0142639721936149|
-|         Arkansas|        091|              Miller| 1.011219512195122|
-|            Texas|        135|               Ector|1.0014370984405456|
-|           Oregon|        047|              Marion|0.9826868292682926|
-|           Kansas|        181|             Sherman|0.9735323943661971|
-|        Louisiana|        089|         St. Charles|0.9709866896551724|
-|             Ohio|        085|                Lake|0.9666666666666668|
-|        Minnesota|        111|          Otter Tail|0.9641929203539823|
-|       California|        029|                Kern|0.9552840147731252|
-|            Texas|        141|             El Paso|0.9464559802761305|
-|           Kansas|        091|             Johnson|0.9374867924528303|
-|       New Jersey|        021|              Mercer|0.9314939589041096|
-|           Kansas|        029|               Cloud|0.9306044444444446|
-|         Colorado|        035|             Douglas|0.9266666666666667|
-|          Florida|        099|          Palm Beach|0.9141428571428573|
-|          Georgia|        089|              DeKalb|0.9125199496626882|
-|        Minnesota|        061|              Itasca|0.8895128205128204|
-|        Minnesota|        103|            Nicollet| 0.881576923076923|
-|      Connecticut|        001|           Fairfield|0.8765945608108108|
-|    Massachusetts|        013|             Hampden|0.8682349224043717|
-|       California|        019|              Fresno|0.8499170323179771|
-|        Minnesota|        141|           Sherburne|0.8408257575757577|
-|        Wisconsin|        079|           Milwaukee|0.8367436675461741|
-|         Colorado|        045|            Garfield|0.8351016949152542|
-|   South Carolina|        049|             Hampton|0.8288424908424908|
-|           Oregon|        051|           Multnomah|0.8102990317052269|
-|      Mississippi|        059|             Jackson|        0.81023825|
-|      Connecticut|        013|             Tolland|0.8060031923076922|
-|       Washington|        015|             Cowlitz| 0.802640243902439|
-|Country Of Mexico|        002|BAJA CALIFORNIA N...|0.8018910386965376|
-|        Louisiana|        017|               Caddo|             0.798|
-|    Massachusetts|        005|             Bristol|0.7900226190476192|
-+-----------------+-----------+--------------------+------------------+
++--------------------+------------------+
+|              County|  Pollutant_levels|
++--------------------+------------------+
+|              Tipton|            2556.0|
+|              Nassau|              19.0|
+|          Columbiana| 7.385690735785953|
+|                Park| 5.611212121212121|
+|     CHIHUAHUA STATE|         4.5121875|
+|            Caldwell| 4.116666666666667|
+|               Kings|3.9843770491803276|
+|              Madera|            3.7393|
+|            Franklin|3.3499999999999996|
+|           Jefferson|              3.07|
+|             Oakland| 2.888877848101266|
+|                Lake| 2.879328647058823|
+|               Duval|2.7794603978494625|
+|           Middlesex|2.6500000000000004|
+|              Kearny|2.3753333333333333|
+|               Bucks|2.3674999999999997|
+|     San Luis Obispo|2.3333333333333335|
+|           Edgecombe|             2.325|
+|              Pawnee|2.2941176470588234|
+|         Westchester|          2.239375|
+|            Johnston|             2.225|
+|            Hartford|2.0787055896226416|
+|           Granville|2.0285714285714285|
+|              Asotin|             2.025|
+|              Duplin|               2.0|
+|             Boulder| 1.960470901234568|
+|          Crittenden|1.9000000000000001|
+|              Yancey|               1.9|
+|         Los Angeles|1.8391350859879247|
+|               Wayne|1.8262007365148463|
+|           Iberville|1.8213132266666665|
+|             Caswell|           1.80075|
+|             Chatham|               1.8|
+|                Pitt|1.7999999999999998|
+|             Clinton|1.7583018867924527|
+|            Imperial|1.6478600515463917|
+|           Jefferson| 1.592159090909091|
+|                Lake| 1.577142857142857|
+|             Ozaukee|        1.55733332|
+|          Stillwater|1.5384615384615385|
+|           Crow Wing| 1.532046511627907|
+|           Jefferson|1.5020496153846155|
+|                Boyd| 1.485702254901961|
+|          Gloucester|1.4814285714285715|
+|           Henderson|1.4295509090909093|
+|              Shelby|1.3927777777777777|
+|            Kennebec|             1.375|
+|          Stanislaus|1.2781941269841275|
+|           Muscatine|            1.2375|
+|          Deer Lodge|1.2135793388429752|
+|                Mesa|1.2109524924242425|
+|             Spokane|1.1469733510638298|
+|    East Baton Rouge|1.1444728456659612|
+|              Harris|1.1426282723128096|
+|               Davis|1.1418481240188378|
+|            Phillips|1.1414093959731544|
+|             Tuscola|     1.13696140625|
+|           Nez Perce|1.1226492795389047|
+|             Bayamon|1.1200363636363637|
+|              Ottawa|         1.1110375|
+|                York|1.0842636320754717|
+|           Pipestone|1.0807463414634146|
+|           Wyandotte|1.0779660104986872|
+|                Lake|1.0760213851902174|
+|              Hudson|         1.0754546|
+|          Williamson|1.0616129032258064|
+|      St. Louis City|1.0544578440366965|
+|     Yellow Medicine|1.0511541666666666|
+|         San Joaquin|1.0142639721936149|
+|              Miller| 1.011219512195122|
+|               Ector|1.0014370984405456|
+|              Marion|0.9826868292682926|
+|             Sherman|0.9735323943661971|
+|         St. Charles|0.9709866896551724|
+|                Lake|0.9666666666666668|
+|          Otter Tail|0.9641929203539823|
+|                Kern|0.9552840147731252|
+|             El Paso|0.9464559802761305|
+|             Johnson|0.9374867924528303|
+|              Mercer|0.9314939589041096|
+|               Cloud|0.9306044444444446|
+|             Douglas|0.9266666666666667|
+|          Palm Beach|0.9141428571428573|
+|              DeKalb|0.9125199496626882|
+|              Itasca|0.8895128205128204|
+|            Nicollet| 0.881576923076923|
+|           Fairfield|0.8765945608108108|
+|             Hampden|0.8682349224043717|
+|              Fresno|0.8499170323179771|
+|           Sherburne|0.8408257575757577|
+|           Milwaukee|0.8367436675461741|
+|            Garfield|0.8351016949152542|
+|             Hampton|0.8288424908424908|
+|           Multnomah|0.8102990317052269|
+|             Jackson|        0.81023825|
+|             Tolland|0.8060031923076922|
+|             Cowlitz| 0.802640243902439|
+|BAJA CALIFORNIA N...|0.8018910386965376|
+|               Caddo|             0.798|
+|             Bristol|0.7900226190476192|
++--------------------+------------------+
 only showing top 100 rows
 

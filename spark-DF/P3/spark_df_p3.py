@@ -17,9 +17,9 @@ try:
     logRowsDF = spark.createDataFrame( logRows )
     
     logRows2DF = logRowsDF.select('State','Year','Arithmetic_mean')\
-                                                           .groupBy('Year','State')\
-                                                           .agg((sum('Arithmetic_mean')/count('Arithmetic_mean')).alias('Avg Pollutants'))\
-                                                           .sort('Avg Pollutants', ascending = False)
+                            .groupBy('Year','State')\
+                            .avg('Arithmetic_mean').withColumnRenamed('avg(Arithmetic_mean)','Avg Pollutants')\
+                            .orderBy(['Year','Avg Pollutants'], ascending=[1,0])
                                                                     
     
     logRows2DF.show(200,truncate=50)

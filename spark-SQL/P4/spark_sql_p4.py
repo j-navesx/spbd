@@ -23,7 +23,7 @@ try:
                      .filter( lambda x: x[1] > 0) \
                      .map(lambda x: x[0]) \
                      .map( lambda line: line.split(',')) \
-                     .map( lambda arr: Row( stateName = arr[24], siteNum = arr[2], countyCode = arr[1], lat = float(arr[5]), lon = float(arr[6]) ) )  
+                     .map( lambda arr: Row( stateName = arr[24], siteNum = arr[2], countyCode = arr[1], lat = float("{:.3f}".format(float(arr[5]))), lon = float("{:.3f}".format(float(arr[6]))) ) )  
     
     # Creates the dataframes and views
     logRowsDF = spark.createDataFrame( logRows )

@@ -26,9 +26,11 @@ try:
                      .filter( lambda x: x[1] > 0) \
                      .map(lambda x: x[0]) \
                      .map( lambda line: line.split(',')) \
-                     .map( lambda arr: (arr[24], (float(arr[5]), float(arr[6]))))
+                     .map( lambda arr: ((arr[24], arr[2], arr[1]), (float("{:.3f}".format(float(arr[5]))), float("{:.3f}".format(float(arr[6]))))))
 
     logRows = logRows.distinct()
+
+    logRows = logRows.map(lambda arr: (arr[0][0],arr[1]))
 
     final = logRows_states.map(lambda arr: (arr[0], (((arr[1]+arr[2])/2), ((arr[3]+arr[4])/2))))\
                     .join(logRows) \

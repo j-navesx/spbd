@@ -9,27 +9,27 @@
 |        Alaska|      NW|             3|
 |        Alaska|      SW|             3|
 |        Alaska|      SE|             4|
-|       Arizona|      SW|            10|
 |       Arizona|      NE|            16|
 |       Arizona|      SE|             2|
 |       Arizona|      NW|            10|
-|      Arkansas|      SE|             2|
+|       Arizona|      SW|            10|
 |      Arkansas|      SW|             3|
+|      Arkansas|      SE|             2|
 |      Arkansas|      NW|             5|
 |      Arkansas|      NE|             1|
 |    California|      NE|            68|
 |    California|      NW|            15|
 |    California|      SW|            84|
 |    California|      SE|             2|
-|      Colorado|      NE|             4|
 |      Colorado|      SE|            24|
-|      Colorado|      NW|             5|
 |      Colorado|      SW|            18|
+|      Colorado|      NE|             4|
+|      Colorado|      NW|             5|
 |   Connecticut|      NW|             8|
 |   Connecticut|      SE|             5|
 |   Connecticut|      SW|             2|
-|      Delaware|      SW|             4|
 |      Delaware|      NW|             2|
+|      Delaware|      SW|             4|
 |       Florida|      SE|            27|
 |       Florida|      NE|            23|
 |       Florida|      SW|             5|
@@ -37,8 +37,8 @@
 |       Georgia|      SE|             4|
 |       Georgia|      NW|             5|
 |       Georgia|      NE|             5|
-|        Hawaii|      SW|             2|
 |        Hawaii|      SE|             2|
+|        Hawaii|      SW|             2|
 |        Hawaii|      NE|             1|
 |         Idaho|      NW|             7|
 |         Idaho|      SW|             7|
@@ -47,51 +47,51 @@
 |      Illinois|      SW|             2|
 |      Illinois|      NW|            15|
 |      Illinois|      NE|             1|
-|       Indiana|      SE|            18|
-|       Indiana|      SW|            18|
 |       Indiana|      NE|             8|
+|       Indiana|      SW|            18|
+|       Indiana|      SE|            18|
 |       Indiana|      NW|             8|
 |          Iowa|      NE|             8|
 |          Iowa|      NW|             4|
 |          Iowa|      SE|             6|
-|        Kansas|      NE|             9|
-|        Kansas|      SE|            18|
-|        Kansas|      NW|             8|
 |        Kansas|      SW|             2|
-|      Kentucky|      SW|             3|
+|        Kansas|      SE|            18|
+|        Kansas|      NE|             9|
+|        Kansas|      NW|             8|
 |      Kentucky|      NW|            14|
 |      Kentucky|      SE|            12|
+|      Kentucky|      SW|             3|
 |      Kentucky|      NE|             2|
 |     Louisiana|      NE|            34|
 |     Louisiana|      NW|             1|
 |     Louisiana|      SW|             5|
-|         Maine|      NE|             6|
-|         Maine|      NW|            12|
 |         Maine|      SE|             2|
 |         Maine|      SW|             1|
+|         Maine|      NE|             6|
+|         Maine|      NW|            12|
 |      Maryland|      SE|            16|
 |      Maryland|      SW|             1|
 | Massachusetts|      SE|            11|
 | Massachusetts|      NE|             4|
 | Massachusetts|      SW|             4|
 |      Michigan|      NE|            69|
-|      Michigan|      NW|             1|
-|      Michigan|      SW|             3|
 |      Michigan|      SE|            11|
-|     Minnesota|      SE|            11|
-|     Minnesota|      SW|            12|
-|     Minnesota|      NE|            50|
+|      Michigan|      SW|             3|
+|      Michigan|      NW|             1|
 |     Minnesota|      NW|            21|
-|   Mississippi|      NE|            12|
+|     Minnesota|      SE|            11|
+|     Minnesota|      NE|            50|
+|     Minnesota|      SW|            12|
 |   Mississippi|      SE|             4|
+|   Mississippi|      NE|            12|
 |   Mississippi|      NW|             5|
+|      Missouri|      NE|             2|
+|      Missouri|      SW|             3|
 |      Missouri|      NW|             2|
 |      Missouri|      SE|             9|
-|      Missouri|      SW|             3|
-|      Missouri|      NE|             2|
-|       Montana|      SW|            10|
 |       Montana|      NW|            36|
 |       Montana|      SE|            11|
+|       Montana|      SW|            10|
 |       Montana|      NE|             4|
 |      Nebraska|      NE|             3|
 |      Nebraska|      SE|             1|
@@ -99,32 +99,32 @@
 |        Nevada|      SW|             2|
 |        Nevada|      NE|             5|
 |        Nevada|      SE|             2|
-| New Hampshire|      NE|             9|
 | New Hampshire|      NW|             4|
+| New Hampshire|      NE|             9|
 | New Hampshire|      SE|             1|
 |    New Jersey|      NE|             1|
-|    New Jersey|      SE|            18|
 |    New Jersey|      NW|             4|
+|    New Jersey|      SE|            18|
 |    New Jersey|      SW|             1|
-|    New Mexico|      SE|             1|
-|    New Mexico|      SW|            12|
 |    New Mexico|      NE|             2|
 |    New Mexico|      NW|             3|
-|      New York|      NW|             3|
-|      New York|      SW|            16|
+|    New Mexico|      SE|             1|
+|    New Mexico|      SW|            12|
 |      New York|      NE|            42|
+|      New York|      SW|            16|
 |      New York|      SE|             5|
-|North Carolina|      SE|            26|
-|North Carolina|      SW|            19|
+|      New York|      NW|             3|
 |North Carolina|      NE|             5|
+|North Carolina|      SW|            19|
+|North Carolina|      SE|            26|
+|  North Dakota|      SW|             2|
 |  North Dakota|      NW|             3|
 |  North Dakota|      SE|             1|
-|  North Dakota|      SW|             2|
 |  North Dakota|      NE|             1|
-|          Ohio|      SW|            15|
-|          Ohio|      SE|            30|
 |          Ohio|      NW|            34|
 |          Ohio|      NE|            10|
+|          Ohio|      SW|            15|
+|          Ohio|      SE|            30|
 |      Oklahoma|      SE|            18|
 |      Oklahoma|      NE|             2|
 |      Oklahoma|      SW|             2|
@@ -132,47 +132,47 @@
 |        Oregon|      NE|             1|
 |        Oregon|      NW|            13|
 |        Oregon|      SW|            15|
-|  Pennsylvania|      NW|            18|
-|  Pennsylvania|      SW|             4|
-|  Pennsylvania|      SE|             3|
 |  Pennsylvania|      NE|            36|
+|  Pennsylvania|      NW|            18|
+|  Pennsylvania|      SE|             3|
+|  Pennsylvania|      SW|             4|
 |   Puerto Rico|      SE|             4|
 |   Puerto Rico|      NW|             1|
 |   Puerto Rico|      SW|             1|
-|  Rhode Island|      SW|             1|
 |  Rhode Island|      SE|            12|
-|South Carolina|      NE|            18|
-|South Carolina|      SE|            10|
-|South Carolina|      NW|             3|
+|  Rhode Island|      SW|             1|
 |South Carolina|      SW|            33|
+|South Carolina|      NE|            18|
+|South Carolina|      NW|             3|
+|South Carolina|      SE|            10|
 |  South Dakota|      NE|             4|
 |  South Dakota|      NW|             3|
+|     Tennessee|      NW|             8|
 |     Tennessee|      NE|             4|
 |     Tennessee|      SE|             8|
 |     Tennessee|      SW|             7|
-|     Tennessee|      NW|             8|
-|         Texas|      SE|            34|
-|         Texas|      NE|            72|
-|         Texas|      SW|            23|
 |         Texas|      NW|             3|
+|         Texas|      SE|            34|
+|         Texas|      SW|            23|
+|         Texas|      NE|            72|
+|          Utah|      NE|             3|
 |          Utah|      SW|             6|
 |          Utah|      NW|             3|
-|          Utah|      NE|             3|
-|       Vermont|      SW|            16|
 |       Vermont|      SE|             1|
-|       Vermont|      NW|             4|
+|       Vermont|      SW|            16|
 |       Vermont|      NE|             1|
+|       Vermont|      NW|             4|
 |Virgin Islands|      NW|             6|
-|      Virginia|      SE|             8|
 |      Virginia|      NE|             8|
+|      Virginia|      SE|             8|
 |      Virginia|      NW|             4|
+|    Washington|      SW|            20|
 |    Washington|      NW|            15|
 |    Washington|      SE|             6|
-|    Washington|      SW|            20|
 |    Washington|      NE|             2|
 | West Virginia|      SE|             2|
-| West Virginia|      SW|             3|
 | West Virginia|      NW|             5|
+| West Virginia|      SW|             3|
 |     Wisconsin|      NE|            20|
 |     Wisconsin|      SE|             2|
 |     Wisconsin|      SW|             2|

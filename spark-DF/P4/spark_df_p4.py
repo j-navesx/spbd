@@ -24,7 +24,7 @@ try:
                      .filter( lambda x: x[1] > 0) \
                      .map(lambda x: x[0]) \
                      .map( lambda line: line.split(',')) \
-                     .map( lambda arr: Row( name = arr[24], Lat = float(arr[5]), Lon = float(arr[6]) ) )    
+                     .map( lambda arr: Row( name = arr[24], county = arr[1], siteNum = arr[2], Lat = float("{:.3f}".format(float(arr[5]))), Lon = float("{:.3f}".format(float(arr[6]))) ) )    
     
     # Dataframe creation
     logRowsStatesDF = spark.createDataFrame( logRows_states )
@@ -39,6 +39,8 @@ try:
                         .drop('minLat') \
                         .drop('maxLat') \
                         .drop('state') \
+                        .drop('county') \
+                        .drop('siteNum') \
                         .join(logRowsDF, 'name') \
                         .withColumn('distance', sqrt( pow((col('Lat')-col('center_Lat'))*111,2) + pow((col('Lon')-col('center_Lon'))*111,2) ) ) \
                         .groupBy('name').avg('distance')

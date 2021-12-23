@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import pyspark
 
 totalExecTime = 0
@@ -12,10 +11,10 @@ try :
                      .filter( lambda x: x[1] > 0) \
                      .map(lambda x: x[0]) \
                      .map( lambda line: line.split(',')) \
-                     .map( lambda arr: (arr[24], (float(arr[5]),float(arr[6])) )) \
-                     .distinct() #ignore repeated entries with the same state, lat and lon
-                        
-                     #.map( lambda arr: ((arr[11][:4], arr[24]), float(arr[16])))
+                     .map( lambda arr: ((arr[24], arr[1], arr[2]), (float("{:.3f}".format(float(arr[5]))),float("{:.3f}".format(float(arr[6])))) )) \
+                     .distinct() \
+                     .map(lambda arr: (arr[0][0],arr[1]))   
+                     
     
     statesTuples = usa_states_lines.filter( lambda line: len(line) > 0) \
                      .zipWithIndex() \
@@ -34,30 +33,30 @@ try :
     
     stateMonitors1stQuad = stateCoords1stQuad.mapValues(lambda x: (1)) \
                                              .reduceByKey(lambda a,b: a+b)\
-                                             .mapValues(lambda x: ('NW',x+0))
+                                             .mapValues(lambda x: ('NW',x))
                                              
     
     stateMonitors2ndQuad = stateCoords2ndQuad.mapValues(lambda x: (1)) \
                                              .reduceByKey(lambda a,b: a+b)\
-                                             .mapValues(lambda x: ('NE',x+0))
+                                             .mapValues(lambda x: ('NE',x))
     
     stateMonitors3rdQuad = stateCoords3rdQuad.mapValues(lambda x: (1)) \
                                              .reduceByKey(lambda a,b: a+b)\
-                                             .mapValues(lambda x: ('SW',x+0))
+                                             .mapValues(lambda x: ('SW',x))
     
     stateMonitors4thQuad = stateCoords4thQuad.mapValues(lambda x: (1)) \
                                              .reduceByKey(lambda a,b: a+b)\
-                                             .mapValues(lambda x: ('SE',x+0))
+                                             .mapValues(lambda x: ('SE',x))
     
     #join won't do because some states dont #have any monitors in certain quadrants #like Florida (NW)
     #fullOuterJoin works, setting the quadrant's value as None if there are no monitors in that same quadrant
     
-    finalStateMonitorsPerQuad = stateMonitors1stQuad.fullOuterJoin(stateMonitors2ndQuad)\
-                                                    .fullOuterJoin(stateMonitors3rdQuad)\
-                                                    .fullOuterJoin(stateMonitors4thQuad)
-    
-    for (key,value) in finalStateMonitorsPerQuad.collect():
-        print(key,value)
+    finalStateMonitorsPerQuad = stateMonitors1stQuad.join(stateMonitors2ndQuad)\
+                                                    .join(stateMonitors3rdQuad)\
+                                                    .join(stateMonitors4thQuad)
+
+    for key,value in finalStateMonitorsPerQuad.collect():
+        print(f"{key}\t{value[0][0][0]} {value[0][0][1]} {value[0][1]} {value[1]}")
     
     sc.stop()
 except Exception as e:

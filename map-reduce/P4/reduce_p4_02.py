@@ -17,8 +17,8 @@ def main():
     for line in stdin:
         line = line.strip()
         state, lat, lon = line.split(',')
-        lat = float(lat)
-        lon = float(lon)
+        lat = float("{:.3f}".format(float(lat)))
+        lon = float("{:.3f}".format(float(lon)))
         # Get the middle latitude and longitude
         if state in states:
             mid_lat, mid_lon = states[state]
