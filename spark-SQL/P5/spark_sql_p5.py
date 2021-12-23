@@ -35,10 +35,10 @@ try:
     # Atribui a cada monitor único o seu quadrante
     MonitorDF = spark.sql("SELECT log.name, log.countyCode, log.stateNum, \
      CASE \
-         WHEN log.lat > log_states.centerLat AND log.lon > log_states.centerLon THEN 'NE' \
-         WHEN log.lat > log_states.centerLat AND log.lon < log_states.centerLon THEN 'SE' \
-         WHEN log.lat < log_states.centerLat AND log.lon < log_states.centerLon THEN 'SW' \
-         WHEN log.lat < log_states.centerLat AND log.lon > log_states.centerLon THEN 'NW' \
+         WHEN log.lat < log_states.centerLat AND log.lon > log_states.centerLon THEN 'NE' \
+         WHEN log.lat > log_states.centerLat AND log.lon > log_states.centerLon THEN 'SE' \
+         WHEN log.lat > log_states.centerLat AND log.lon < log_states.centerLon THEN 'SW' \
+         WHEN log.lat < log_states.centerLat AND log.lon < log_states.centerLon THEN 'NW' \
          ELSE 'Center or Borders' \
      END AS Quadrant \
      FROM log JOIN log_states ON log.name=log_states.name GROUP BY log.name, log.countyCode, log.stateNum, Quadrant")
